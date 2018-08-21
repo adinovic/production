@@ -1,0 +1,203 @@
+
+
+* {margin:0px;padding:0px;}		
+body {font-family:trebuchet ms; /* color:#000000; */}
+td {padding:0px;margin:0px;height:10px;}	
+tr {height:17px;}
+td {background:none;}	
+.contentwrapper p {margin:0px;}
+h1, h2, h3, h4, h5 {font-size:inherit;}
+
+
+	.wrapper {
+		position: relative;
+		overflow: hidden;
+		margin: auto;
+		width:800px;
+		height:1140px;
+		/*border:1px solid black;*/
+		/*page-break-after: always;*/
+	}
+/* General Styles */
+	#cardwrap_t1, #template2_cardwrap, #template3_cardwrap, #template6_cardwrap {
+		font-size: 11px;
+	}
+
+
+/*
+======================
+Template 1 styles
+======================
+*/	
+	.borderheading {
+		border-bottom: 2px solid black;
+		padding:10px;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.borderheading td {
+		border:none;
+	}
+
+	.header {
+		text-align: center;
+		margin-bottom:7px;
+		font-size: 20px;
+	}
+
+	.subheader {
+		font-size: 14px;
+		text-align: center
+	}
+
+	.boxtitle_t1 {
+		display:inline-block;
+		width:332px;
+		background:#132656;
+		color:#fff;
+		padding-bottom:5px;
+		}
+		
+	.template1_line {
+		border:1px solid #000000;
+		position:relative;
+		left:0px;
+		top:2px;
+		}	
+		
+	.logo_t1 {
+		float:left;
+		margin-left:5px;
+		margin-top:2px;
+		margin-right:20px;
+		width:45px;
+		}
+		
+	.tbody_t1 td {
+		padding-left:5px;
+		padding:0px;
+		margin:0px;
+		}
+		
+	.logoright_t1 {
+		float:left;
+		margin-top:2px;
+		}
+
+	.tablecontent {
+		margin-top:20px;
+	}	
+
+	.tablecontent td {
+		font-size:10px;
+	}	
+
+	.indent {
+		float:right;
+		margin-right: 10px;
+	}
+
+	.noborder, .noborder td {
+		border:none;
+	}
+		
+	.title_t1 {
+		float:left;
+		margin-top:4px;
+		width:255px;
+		font-size: 16px;
+		text-align:center;
+		}
+	
+	.address_t1 {
+		float:left;
+		width:255px;
+		text-align:center;
+		padding-bottom:5px;
+		}
+		
+	#cardwrap_t1 {
+		position:relative;
+		margin:10px;
+		width: 380px;
+		height:240px;
+		font-size: 10px;
+		}
+
+	#cardwrap_t1 td {
+		line-height: 17px;
+	}	
+		
+	.titlecard_t1 {
+		text-align:center;
+		margin-top:5px;
+		font-size: 14px;
+		}
+		
+	.pict_t1 {
+		position:absolute;
+		top: 18px;
+		left:10px;
+		}
+		
+	.barcoy_t1 {
+		margin:20px 0 0 2px;
+		position:absolute;
+		float:left;
+		bottom:3px;
+		left:0px;
+		}
+		
+	.signature_t1 {
+		position:absolute;
+		bottom:2px;
+		right:10px;
+		margin-right:10px;
+		text-align:center;
+		}
+		
+	.signature_t1 img {
+		position:relative;
+		top:0px;
+		}
+
+
+		
+/* belakang */		
+		
+	#cardwrap_back {
+		position:relative;
+		margin:10px;
+		padding:10px;
+		width:332px;
+		height:220px;
+		font-size: 11px;
+		border:1px solid #444444;
+		background:#132656;
+		color: #fff;
+		}	
+	
+	#cardwrap_back p {
+		text-align: center;
+		line-height: 17px;
+	}	
+
+	.numFoot {
+		color: #fff;
+		width: 40px;
+		padding: 2px 5px;
+		text-align: center;
+		margin: auto;
+		-moz-border-radius:50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		position: relative;
+		background-image:url(img/mask-square.png);
+		background-color:#000; 
+		border:1px solid black;
+}
+

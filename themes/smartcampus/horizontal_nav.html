@@ -1,0 +1,725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart Campus</title>
+<link rel="stylesheet" href="css/style.default.css" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+
+<script type="text/javascript" src="js/plugins/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script> <!-- table with action plugin -->
+<script type="text/javascript" src="js/plugins/jquery.uniform.min.js"></script> <!-- form input style plugin -->
+<script type="text/javascript" src="js/plugins/jquery.bxSlider.min.js"></script> <!-- jquery slider images -->
+<script type="text/javascript" src="js/plugins/jquery.slimscroll.js"></script> <!-- jquery scroll modify -->
+<script type="text/javascript" src="js/custom/general.js"></script> <!-- jquery Pop Up Dialogs -->
+<script type="text/javascript" src="js/custom/tables.js"></script> <!-- jquery table interafaces -->
+<script type="text/javascript" src="js/custom/widgets.js"></script> <!-- jquery kumpulan triger widget -->
+<!--<script type="text/javascript" src="js/custom/forms.js"></script> jquery forms interface -->
+<script type="text/javascript" src="js/others/jquery.tipsy.js"></script> <!-- jquery tooltip -->
+
+
+</head>
+
+<body class="withvernav">
+
+<div class="header"> <!-- header fixed -->
+
+  <!-- begin horizontal menu -->
+<a class="toggleMenu" href="#">Menu</a>
+<ul class="nav">
+    <li  class="test">
+        <a href="#">Master Akademik</a>
+        <ul>
+            <li>
+                <a href="#">Mahasiswa</a>
+                <ul>
+                    <li><a href="#">Sandals</a></li>
+                    <li><a href="#">Sneakers</a></li>
+                    <li><a href="#">Wedges</a></li>
+                    <li><a href="#">Heels</a></li>
+                    <li><a href="#">Loafers</a></li>
+                    <li><a href="#">Flats</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Reguler</a>
+                <ul>
+                    <li><a href="#">Loafers</a></li>
+                    <li><a href="#">Sneakers</a></li>
+                    <li><a href="#">Formal</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Sem Reguler</a>
+        <ul>
+            <li>
+                <a href="#">Mens</a>
+                <ul>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Dress Shirts</a></li>
+                    <li><a href="#">Tank Tops</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Womens</a>
+                <ul>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Blouses</a></li>
+                    <li><a href="#">Dress Shirts</a></li>
+                    <li><a href="#">Tunics</a></li>
+                    <li><a href="#">Camisoles</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Sem Pendek</a>
+        <ul>
+            <li>
+                <a href="#">Mens</a>
+                <ul>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Dress Shirts</a></li>
+                    <li><a href="#">Tank Tops</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Womens</a>
+                <ul>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Blouses</a></li>
+                    <li><a href="#">Dress Shirts</a></li>
+                    <li><a href="#">Tunics</a></li>
+                    <li><a href="#">Camisoles</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">PMB</a>
+        <ul>
+            <li>
+                <a href="#">Mens</a>
+                <ul>
+                    <li><a href="#">Trousers</a></li>
+                    <li><a href="#">Slacks</a></li>
+                    <li><a href="#">Jeans</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Womens</a>
+                <ul>
+                    <li><a href="#">Trousers</a></li>
+                    <li><a href="#">Slacks</a></li>
+                    <li><a href="#">Jeans</a></li>
+                    <li><a href="#">Leggings</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Keuangan</a>
+        <ul>
+            <li>
+                <a href="#">Long</a>
+                <ul>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Knits</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Short</a>
+                <ul>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Knits</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Mini</a>
+                <ul>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Knits</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Komunikasi</a>
+        <ul>
+            <li>
+                <a href="#">Casual</a>
+            </li>
+            <li>
+                <a href="#">Formal</a>
+                <ul>
+                    <li><a href="#">Wedding</a></li>
+                    <li><a href="#">Party</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </li>
+    <li>
+        <a href="#">Dikti</a>
+        <ul>
+            <li>
+                <a href="#">Mens</a>
+                <ul>
+                    <li><a href="#">Wool</a></li>
+                    <li><a href="#">Knitwear</a></li>
+                    <li><a href="#">Light Sweaters</a></li>
+                    <li><a href="#">Cardigans</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Womens</a>
+                <ul>
+                    <li><a href="#">Wool</a></li>
+                    <li><a href="#">Knitwear</a></li>
+                    <li><a href="#">Light Sweaters</a></li>
+                    <li><a href="#">Cardigans</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Executive Summary</a>
+        <ul>
+            <li>
+                <a href="#">Womens</a>
+                <ul>
+                    <li><a href="#">Belts</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Jewelery</a></li>
+                    <li><a href="#">Hats</a></li>
+                    <li><a href="#">Eyewear</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Mens</a>
+                <ul>
+                    <li><a href="#">Belts</a></li>
+                    <li><a href="#">Hats</a></li>
+                    <li><a href="#">Eyewear</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Kepaniteraan</a>
+        <ul>
+            <li>
+                <a href="#">Womens</a>
+                <ul>
+                    <li><a href="#">Winter</a></li>
+                    <li><a href="#">Spring/Fall</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Mens</a>
+                <ul>
+                    <li><a href="#">Winter</a></li>
+                    <li><a href="#">Spring/Fall</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">Sistem</a>
+    </li>
+</ul>
+<!-- end horizontal menu -->
+<script type="text/javascript" src="js/others/script.js"></script>  
+ 
+</div> <!-- end header fixed -->
+
+<div class="bodywrapper"> <!-- bodywrapper-->
+    <div class="topheader">
+    	
+        <div class="boxTitle"> <!-- Program name -->
+        	<img src="images/uploads/logo.png"/>
+            <div class="infoWrap">
+              <h3 class="logo">SISTEM INFORMASI AKADEMIK</h3>
+              <span class="slogan">Universitas SUTEKI IT Solutions</span>
+              <br clear="all" />
+            </div>
+        </div>
+        
+        <div class="left">
+            <div class="search">
+            	<form action="#" method="post">
+                	<input type="text" name="keyword" id="keyword" value="Pencarian.." />
+                    <button class="submitbutton"></button>
+                </form>
+            </div><!--search-->
+            
+            <br clear="all" />
+            
+        </div><!--left-->
+        
+        <div class="right">
+            
+        	<div class="notification">
+                <a class="count" href="ajax/notifications.html">
+                	<img src="images/default/mail.png"/>
+                	<span>4</span>
+                </a>
+        	</div>
+            <div class="userinfo">
+                 <img src="images/thumbs/avatar.png" alt="" />
+                <span>Superadmin</span>
+                <span class="arrow" style="padding:0px;"><img src="images/sort_desc.png" /></span>
+            </div><!--userinfo-->
+            
+            <div class="userinfodrop">
+            	<h4>Administrator</h4>
+            	<div class="avatar">
+                	<a href="#"><img src="images/thumbs/avatarbig.png"></a>
+                </div><!--avatar-->
+				<div class="userdata">
+                    <ul>
+                    	<li><a href="#">Edit Profile</a></li>
+                        <li><a href="#">Account Settings</a></li>
+                        <li><a href="#">Sign Out</a></li>
+                    </ul>
+                </div><!--userdata-->
+            </div><!--userinfodrop-->
+        </div><!--right-->
+    </div><!--topheader-->
+    
+    <div class="vernav2 iconmenu">
+    	
+        <div class="navleft"><p>Dosen Pengajar MK</p></div>
+        <ul>
+            <li><a href="#" class="editor">PMB</a></li>
+            <li><a href="#" class="editor">Keuangan</a></li>
+            <li><a href="#" class="editor">Komunikasi</a></li>
+            <li><a href="#" class="editor">Dikti</a></li>
+            <li><a href="#" class="editor">Executive Summary</a></li>
+        </ul>
+        <div class="navleft"><p>Kurikulum SP</p></div>
+        <ul>
+            <li><a href="#" class="editor">PMB</a></li>
+            <li><a href="#" class="editor">Keuangan</a></li>
+            <li><a href="#" class="editor">Komunikasi</a></li>
+            <li><a href="#" class="editor">Dikti</a></li>
+            <li><a href="#" class="editor">Executive Summary</a></li>
+        </ul>
+
+        <a class="togglemenu"></a>
+        <br /><br />
+    </div><!--leftmenu-->
+        
+    <div class="centercontent tables">
+    
+        <div class="pageheader notab">
+        
+           <ul class="photosharing_menu">
+            <li class="marginleft5 dropdown" id="actions">
+                <a class="dropdown_label" href="#actions">
+                <p>Login Program</p>
+                <span class="arrow"></span>
+                </a>
+                <ul>
+                    <li><a href="#">Login SITU</a></li>
+                    <li><a href="#">Login PUSAKA</a></li>
+                </ul>
+            </li>
+        </ul>
+        <span class="clearall"></span>   
+          
+        <div class="clearall"></div>  
+              
+        </div><!--pageheader-->
+        
+            
+        <div id="contentwrapper" class="contentwrapper">
+
+        	<div class="notibar msginfo">
+                <a class="close"></a>
+                <p>This is an information message.</p>
+            </div><!-- notification msginfo -->
+            
+            <div class="notibar msgsuccess">
+                <a class="close"></a>
+                <p>This is a success message.</p>
+            </div><!-- notification msgsuccess -->
+            
+            <div class="notibar msgalert">
+                <a class="close"></a>
+                <p>This is an alert message.</p>
+            </div><!-- notification msgalert -->
+            
+            <div class="notibar msgerror">
+                <a class="close"></a>
+                <p>This is an error message.</p>
+            </div><!-- notification msgerror -->
+                
+                <div class="contenttitle2">
+                	<h3>Table Style</h3>
+                </div><!--contenttitle-->
+                <table cellpadding="0" cellspacing="0" border="0" class="stdtable stdtablecb">
+                    <colgroup>
+                        <col class="con0" style="width: 4%" />
+                        <col class="con1" />
+                        <col class="con0" />
+                        <col class="con1" />
+                        <col class="con0" />
+                        <col class="con1" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                        	<th class="head0"><input type="checkbox" class="checkall" /></th>
+                            <th class="head1">Rendering engine</th>
+                            <th class="head0">Browser</th>
+                            <th class="head1">Platform(s)</th>
+                            <th class="head0">Engine version</th>
+                            <th class="head1">CSS grade</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                        	<th class="head0"><input type="checkbox" class="checkall" /></th>
+                            <th class="head1">Rendering engine</th>
+                            <th class="head0">Browser</th>
+                            <th class="head1">Platform(s)</th>
+                            <th class="head0">Engine version</th>
+                            <th class="head1">CSS grade</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                        	<td align="center"><input type="checkbox" /></td>
+                            <td>Trident</td>
+                            <td>Internet Explorer 4.0</td>
+                            <td>Win 95+</td>
+                            <td class="center">4</td>
+                            <td class="center">X</td>
+                        </tr>
+                        <tr>
+                        	<td align="center"><input type="checkbox" /></td>
+                            <td>Trident</td>
+                            <td>Internet Explorer 5.0</td>
+                            <td>Win 95+</td>
+                            <td class="center">5</td>
+                            <td class="center">C</td>
+                        </tr>
+                        <tr>
+                        	<td align="center"><input type="checkbox" /></td>
+                            <td>Trident</td>
+                            <td>Internet  Explorer 5.5</td>
+                            <td>Win 95+</td>
+                            <td class="center">5.5</td>
+                            <td class="center">A</td>
+                        </tr>
+                        <tr>
+                        	<td align="center"><input type="checkbox" /></td>
+                            <td>Trident</td>
+                            <td>Internet Explorer 6</td>
+                            <td>Win 98+</td>
+                            <td class="center">6</td>
+                            <td class="center">A</td>
+                        </tr>
+                        <tr>
+                        	<td align="center"><input type="checkbox" /></td>
+                            <td>Trident</td>
+                            <td>Internet Explorer 7</td>
+                            <td>Win XP SP2+</td>
+                            <td class="center">7</td>
+                            <td class="center">A</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <br/>
+                <br/>
+                
+                <div id="basicform" class="subcontent">
+                                
+                    <div class="contenttitle2">
+                        <h3>Komponen Form</h3>
+                    </div><!--contenttitle-->
+
+                    <form class="stdform" action="#" method="post">
+                    	
+                        <p>
+                        	<label>Small Input</label>
+                            <span class="field"><input type="text" name="input1" class="smallinput" /></span>
+                            <small class="desc">Small description of this field.</small>
+                        </p>
+                        
+                        <p>
+                        	<label>Medium Input</label>
+                            <span class="field"><input type="text" name="input2" class="mediuminput" /></span>
+                        </p>
+                        
+                        <p>
+                        	<label>Long Input</label>
+                            <span class="field"><input type="text" name="input3" class="longinput" /></span>
+                        </p>
+                        
+                        <p>
+                        	<label>Textarea</label>
+                            <span class="field"><textarea cols="80" rows="5" class="longinput"></textarea></span> 
+                        </p>
+                        
+                        <p>
+                        	<label>Textarea with Character Count</label>
+                            <span class="field">
+                                <textarea cols="80" rows="5" id="textarea2" class="longinput"></textarea>
+                            </span> 
+                        </p>
+                        
+                        <p>
+                        	<label>Select</label>
+                            <span class="field">
+                            <select name="select">
+                            	<option value="">Choose One</option>
+                                <option value="">Selection One</option>
+                                <option value="">Selection Two</option>
+                                <option value="">Selection Three</option>
+                                <option value="">Selection Four</option>
+                            </select>
+                            
+                            </span>
+                        </p>
+                        
+                        <p>
+                        	<label>Radio Buttons</label>
+                            <span class="formwrapper">
+                            	<input type="radio" name="radiofield" /> Unchecked Radio &nbsp; &nbsp;
+                            	<input type="radio" name="radiofield" checked="checked" /> Checked Radio &nbsp; &nbsp;
+                                <input type="radio" name="radiofield" disabled="disabled" /> Disabled Radio  &nbsp; &nbsp;
+                                <input type="radio" name="radiofield" checked="checked" disabled="disabled" /> Disabled Radio 
+                            </span>
+                        </p>
+                                                                        
+                        <p>
+                        	<label>Checkboxes</label>
+                            <span class="formwrapper">
+                            	<input type="checkbox" name="check2" /> Unchecked Checkbox<br />
+                            	<input type="checkbox" name="check2" checked="checked" /> Checked Checkbox <br />
+                                <input type="checkbox" name="check2" disabled="disabled" /> Disabled Checkbox <br /> 
+                                <input type="checkbox" name="check2" disabled="disabled" checked="checked" /> Disabled Checked Checkbox
+                            </span>
+                        </p>
+                        
+                        <p>
+                        	<label>Date Picker</label>
+                            <span class="field">
+                            	<input id="datepicker" type="text" class="width100" /> 
+                            </span>
+                        </p>
+                        
+                        <p>
+                        	<label>File Upload</label>
+                            <span class="field">
+                            	<input type="file" name="filename" />
+                            </span>
+                        </p>
+                        <br clear="all" /><br />
+                        
+                        <p class="stdformbutton">
+                        	<button class="submit radius2">Submit Button</button>
+                            <input type="reset" class="reset radius2" value="Reset Button" />
+                        </p>
+                         
+                    </form>
+
+
+                    <br/>
+                    <br/>
+
+
+                    <!-- BEGIN FORM-->
+                     <form action="#" class="form-horizontal">
+                           <h4 class="form-section">2 Columns Form</h4>
+                           <br/>
+                           <br/>
+                           <div class="row-fluid">
+                              <div class="span6 ">
+                                 <div class="control-group">
+                                    <label class="control-label">First Name</label>
+                                    <div class="controls">
+                                       <input type="text" class="m-wrap span12" placeholder="Chee Kin">
+                                       <span class="help-block">This is inline help</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                              <div class="span6 ">
+                                 <div class="control-group error">
+                                    <label class="control-label">Last Name</label>
+                                    <div class="controls">
+                                       <input type="text" class="m-wrap span12" placeholder="Lim">
+                                       <span class="help-block">This field has error.</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                           </div>
+                           <!--/row-->
+                           <div class="row-fluid">
+                              <div class="span6 ">
+                                 <div class="control-group">
+                                    <label class="control-label">Gender</label>
+                                    <div class="controls">
+                                       <select class="m-wrap span12">
+                                          <option value="">Male</option>
+                                          <option value="">Female</option>
+                                       </select>
+                                       <span class="help-block">Select your gender.</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                              <div class="span6 ">
+                                 <div class="control-group">
+                                    <label class="control-label" >Date of Birth</label>
+                                    <div class="controls">
+                                       <input type="text" class="m-wrap span12" placeholder="dd/mm/yyyy">
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                           </div>
+                           <!--/row-->        
+                           <div class="row-fluid">
+                              <div class="span6 ">
+                                 <div class="control-group">
+                                    <label class="control-label">Category</label>
+                                    <div class="controls">
+                                       <select class="span12 select2_category"  data-placeholder="Choose a Category" tabindex="1">
+                                          <option value=""></option>
+                                          <option value="Category 1">Category 1</option>
+                                          <option value="Category 2">Category 2</option>
+                                          <option value="Category 3">Category 5</option>
+                                          <option value="Category 4">Category 4</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                              <div class="span6 ">
+                                 <div class="control-group">
+                                    <label class="control-label">Membership</label>
+                                    <div class="controls">                                                
+                                       <label class="radio">
+                                       <input type="radio" name="optionsRadios2" value="option1" />
+                                       Free
+                                       </label>
+                                       <label class="radio">
+                                       <input type="radio" name="optionsRadios2" value="option2" checked />
+                                       Professional
+                                       </label>  
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                           </div>
+                          
+                           <!--/row-->                   
+                           <div class="row-fluid">
+                              <div class="span12 ">
+                                 <div class="control-group">
+                                    <label class="control-label">Street</label>
+                                    <div class="controls">
+                                       <input type="text" class="m-wrap span12" >
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row-fluid">
+                              <div class="span6 ">
+                                 <div class="control-group">
+                                    <label class="control-label">City</label>
+                                    <div class="controls">
+                                       <input type="text" class="m-wrap span12"> 
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                              <div class="span6 ">
+                                 <div class="control-group">
+                                    <label class="control-label" >State</label>
+                                    <div class="controls">
+                                       <input type="text"  class="m-wrap span12"> 
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                           </div>
+                           <!--/row-->           
+                           <div class="row-fluid">
+                              <div class="span6 ">
+                                 <div class="control-group">
+                                    <label class="control-label">Post Code</label>
+                                    <div class="controls">
+                                       <input type="text" class="m-wrap span12"> 
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                              <div class="span6 ">
+                                 <div class="control-group">
+                                    <label class="control-label">Country</label>
+                                    <div class="controls">
+                                       <select class="m-wrap span12">
+                                          <option>Country 1</option>
+                                          <option>Country 2</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--/span-->
+                           </div>
+                           <!--/row-->
+                        <div class="form-actions">
+                           <button type="submit" class="submit radius2"><i class="icon-ok"></i> Save</button>
+                           <button type="button" class="reset radius2">Cancel</button>
+                        </div>
+                     </form>
+                     <!-- END FORM--> 
+
+                     <br/>
+                     <br/>
+
+            </div>
+            
+            <br/>
+            
+            <div class="contenttitle2">
+                <h3>Form Komponen</h3>
+            </div><!--contenttitle-->
+            
+            <ul class="pagination">
+                <li class="first"><a href="#" class="disable">&laquo;</a></li>
+                <li class="previous"><a href="#" class="disable">&lsaquo;</a></li>
+                <li><a href="#" class="current">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li class="next"><a href="#">&rsaquo;</a></li>
+                <li class="last"><a href="#">&raquo;</a></li>
+        	</ul>
+
+        </div><!--contentwrapper-->
+        
+	</div><!-- centercontent -->
+    
+    
+</div> <!--end bodywrapper-->
+
+</body>
+
+</html>
+<script type="text/javascript" src="js/others/fullscreen.js"></script>

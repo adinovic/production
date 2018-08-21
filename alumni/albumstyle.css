@@ -1,0 +1,104 @@
+/* common */
+td {padding:0px;margin:0px;height:10px;}  
+tr {height:17px;}
+h1, h2, h3, h4, h5 {font-size:inherit;}
+.container{
+  margin:0px;
+}
+
+.page {
+  font-family:trebuchet ms;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width:800px;
+  height:1140px;
+  
+}
+
+.clearpage{
+  clear:both;
+  page-break-after: always;
+}
+
+.clearpage:before,
+.clearpage:after{
+  display: table;
+  content: " ";
+}
+/* header */
+.borderheading {
+  border-bottom: 2px solid black;
+  padding:10px;
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.borderheading td {
+  border:none;
+}
+
+.header {
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom:7px;
+  font-size: 28px;
+}
+
+.subheader {
+  font-size: 20px;
+  margin: 2px;
+  text-align: center;
+}
+/* content */
+.biodata{
+  float:left;
+  width: 400px;
+  height: 200px;
+}
+
+.tablecontent {
+margin-top:20px;
+} 
+
+.tablecontent td {
+  font-size:10px;
+  padding-left:10px;
+} 
+
+.indent {
+  float:right;
+  margin-right: 10px;
+}
+
+.noborder, .noborder td {
+border:none;
+}
+
+.avatar {
+  margin-left:10px;
+}
+
+
+/* footer */
+.numfoot {
+  clear:both;
+  color: #fff;
+  width: 40px;
+  padding: 2px 5px;
+  text-align: center;
+  margin: auto;
+  -moz-border-radius:50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+  background-color:#000; 
+  background-image:url(img/mask-square.png);
+  border:1px solid black;
+}
+
+
+

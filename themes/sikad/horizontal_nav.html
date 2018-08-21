@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart Campus</title>
+<link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome/css/font-awesome.css" type="text/css" />
+<link rel="stylesheet" href="css/megamenu.css" type="text/css" />
+<link rel="stylesheet" href="css/style.default.css" type="text/css" />
+
+<script type="text/javascript" src="js/plugins/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="css/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script> <!-- table with action plugin -->
+<script type="text/javascript" src="js/plugins/jquery.uniform.min.js"></script> <!-- form input style plugin -->
+<script type="text/javascript" src="js/plugins/jquery.bxSlider.min.js"></script> <!-- jquery slider images -->
+<script type="text/javascript" src="js/plugins/jquery.slimscroll.js"></script> <!-- jquery scroll modify -->
+<!-- <script type="text/javascript" src="js/others/megamenu.js"></script> -->
+<script type="text/javascript" src="js/custom/general.js"></script> <!-- jquery Pop Up Dialogs -->
+<script type="text/javascript" src="js/custom/tables.js"></script> <!-- jquery table interafaces -->
+<script type="text/javascript" src="js/custom/widgets.js"></script> <!-- jquery kumpulan triger widget -->
+<!-- <script type="text/javascript" src="js/custom/forms.js"></script> 
+<script type="text/javascript" src="js/others/jquery.tipsy.js"></script> <!-- jquery tooltip -->
+
+
+</head>
+
+<body class="withvernav">
+
+<div class="wrapper"> <!-- bodywrapper-->
+    <div class="topheader">
+    	
+        <div class="boxTitle"> <!-- Program name -->
+        	<img src="images/uploads/logo.png"/>
+            <div class="infoWrap">
+              <h3 class="logo">SISTEM INFORMASI AKADEMIK</h3>
+              <span class="slogan">Universitas SUTEKI IT Solutions</span>
+              <br clear="all" />
+            </div>
+        </div>
+        
+        <div class="left">
+            <div class="search">
+            	<form action="#" method="post">
+                	<input type="text" name="keyword" id="keyword" value="Pencarian.." />
+                    <button class="submitbutton"></button>
+                </form>
+            </div><!--search-->
+            
+            <br clear="all" />
+            
+        </div><!--left-->
+        
+        <div class="right">
+            
+        	<div class="notification">
+                <a class="count" href="ajax/notifications.html">
+                	<img src="images/default/mail.png"/>
+                	<span>4</span>
+                </a>
+        	</div>
+            <div class="userinfo">
+                 <img src="images/thumbs/avatar.png" alt="" />
+                <span>Superadmin</span>
+                <span class="arrow" style="padding:0px;"><img src="images/sort_desc.png" /></span>
+            </div><!--userinfo-->
+            
+            <div class="userinfodrop">
+            	<h4>Administrator</h4>
+            	<div class="avatar">
+                	<a href="#"><img src="images/thumbs/avatarbig.png"></a>
+                </div><!--avatar-->
+				<div class="userdata">
+                    <ul>
+                    	<li><a href="#">Edit Profile</a></li>
+                        <li><a href="#">Account Settings</a></li>
+                        <li><a href="#">Sign Out</a></li>
+                    </ul>
+                </div><!--userdata-->
+            </div><!--userinfodrop-->
+        </div><!--right-->
+    </div><!--topheader-->
+
+    <!-- begin megamenu -->
+     <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        
+        <div class="collapse navbar-collapse js-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Master Akademik<span class="caret"></span></a>              
+                    <ul class="dropdown-menu mega-dropdown-menu row">
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Dresses</li>
+                                <li><a href="#">Unique Features</a></li>
+                                <li><a href="#">Image Responsive</a></li>
+                                <li><a href="#">Auto Carousel</a></li>
+                                <li><a href="#">Newsletter Form</a></li>
+                                <li><a href="#">Four columns</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Tops</li>
+                                <li><a href="#">Good Typography</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Dresses</li>
+                                <li><a href="#">Unique Features</a></li>
+                                <li><a href="#">Image Responsive</a></li>
+                                <li><a href="#">Auto Carousel</a></li>
+                                <li><a href="#">Newsletter Form</a></li>
+                                <li><a href="#">Four columns</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Tops</li>
+                                <li><a href="#">Good Typography</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Jackets</li>
+                                <li><a href="#">Easy to customize</a></li>
+                                <li><a href="#">Glyphicons</a></li>
+                                <li><a href="#">Pull Right Elements</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Pants</li>
+                                <li><a href="#">Coloured Headers</a></li>
+                                <li><a href="#">Primary Buttons & Default</a></li>
+                                <li><a href="#">Calls to action</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Accessories</li>
+                                <li><a href="#">Default Navbar</a></li>
+                                <li><a href="#">Lovely Fonts</a></li>
+                                <li><a href="#">Responsive Dropdown </a></li>                           
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Newsletter</li>
+                                <form class="form" role="form">
+                                  <div class="form-group">
+                                    <label class="sr-only" for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email">                                                              
+                                  </div>
+                                  <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                                </form>                                                       
+                            </ul>
+                        </li>
+                    </ul>               
+                </li>
+                <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sem Reguler <span class="caret"></span></a>                
+                    <ul class="dropdown-menu mega-dropdown-menu">
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Features</li>
+                                <li><a href="#">Auto Carousel</a></li>
+                                <li><a href="#">Carousel Control</a></li>
+                                <li><a href="#">Left & Right Navigation</a></li>
+                                <li><a href="#">Four Columns Grid</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Fonts</li>
+                                <li><a href="#">Glyphicon</a></li>
+                                <li><a href="#">Google Fonts</a></li>
+                            </ul>
+                        </li>
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Plus</li>
+                                <li><a href="#">Navbar Inverse</a></li>
+                                <li><a href="#">Pull Right Elements</a></li>
+                                <li><a href="#">Coloured Headers</a></li>                            
+                                <li><a href="#">Primary Buttons & Default</a></li>                          
+                            </ul>
+                        </li>
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Much more</li>
+                                <li><a href="#">Easy to Customize</a></li>
+                                <li><a href="#">Calls to action</a></li>
+                                <li><a href="#">Custom Fonts</a></li>
+                                <li><a href="#">Slide down on Hover</a></li>                         
+                            </ul>
+                        </li>
+                        <li class="col-sm-3">
+                            <ul>
+                                <li class="dropdown-header">Features</li>
+                                <li><a href="#">Auto Carousel</a></li>
+                                <li><a href="#">Carousel Control</a></li>
+                                <li><a href="#">Left & Right Navigation</a></li>
+                                <li><a href="#">Four Columns Grid</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Fonts</li>
+                                <li><a href="#">Glyphicon</a></li>
+                                <li><a href="#">Google Fonts</a></li>
+                            </ul>
+                        </li>
+                    </ul>               
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sem Pendek <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">Hover me for more options</a>
+                        <ul class="dropdown-menu">
+                          <li><a tabindex="-1" href="#">Second level</a></li>
+                          <li class="dropdown-submenu">
+                            <a href="#">Even More..</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">3rd level</a></li>
+                                <li><a href="#">3rd level</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Second level</a></li>
+                          <li><a href="#">Second level</a></li>
+                        </ul>
+                    </li>
+                  </ul>
+                </li>
+            </ul>
+        </div><!-- /.nav-collapse -->
+      </nav>
+    <!-- end megamenu -->
+    
+    <div class="vernav2 iconmenu">
+        <ul>
+            <li><a href="#formsub" class="editor">Master Akademik</a>
+                <span class="arrow"></span>
+                <ul id="formsub">
+                    <li><a href="#">Badan Hukum/PT</a></li>
+                    <li><a href="#">Dosen</a></li>
+                    <li><a href="#">Mahasiswa</a></li>
+                    <li><a href="#">Alumni</a></li>
+                </ul>
+            </li>
+            <li class="current"><a href="#formsub2" class="editor">Semester Reguler</a>
+                <span class="arrow"></span>
+                <ul id="formsub2">
+                    <li><a href="#">Kurikulum KRS/SP</a></li>
+                    <li><a href="#">Dosen</a></li>
+                    <li><a href="#">Mahasiswa</a></li>
+                    <li><a href="#">Alumni</a></li>
+                </ul>
+            </li>
+            <li><a href="#formsub3" class="editor">Semester Pendek</a>
+                <span class="arrow"></span>
+                <ul id="formsub3">
+                    <li><a href="#">Kurikulum KRS/SP</a></li>
+                    <li><a href="#">Dosen</a></li>
+                    <li><a href="#">Mahasiswa</a></li>
+                    <li><a href="#">Alumni</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="editor">PMB</a></li>
+            <li><a href="#" class="editor">Keuangan</a></li>
+            <li><a href="#" class="editor">Komunikasi</a></li>
+            <li><a href="#" class="editor">Dikti</a></li>
+            <li><a href="#" class="editor">Executive Summary</a></li>
+            <li><a href="#" class="editor">Kepaniteraan</a></li>
+            <li><a href="#" class="editor">Sistem</a></li>
+        </ul>
+        <a class="togglemenu"></a>
+        <br /><br />
+    </div><!--leftmenu-->
+        
+    <div class="centercontent tables">
+           
+        <div id="contentwrapper" class="contentwrapper">
+
+        <ul class="toplist">
+            <li>
+                <div>
+                    <span class="three_fourth">
+                        <span class="left">
+                            <span class="title"><a href="#">Setting Penandatangan</a></span>
+                            <span class="desc">Support for authenticating users using both OAuth1.0a and OAuth2 in Symfony2.</span> <br/>
+                            <span>Semester Reguler/Nilai Kuliah/</span>
+                        </span><!--left-->
+                    </span><!--three_fourth-->
+                    <span class="one_fourth last">
+                        <span class="right">
+                            <a href="#" class="btn btn-default pull-right mb5"><i class="fa fa-arrow-right"></i></a>
+                        </span><!--right-->
+                    </span>
+                    <br clear="all">
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span class="three_fourth">
+                        <span class="left">
+                            <span class="title"><a href="#">Proses Kartu Ujian UTS</a></span>
+                            <span class="desc">Automatic BASH completion for Symfony Console Component based applications.</span> <br/>
+                            <span>Semester Reguler/Nilai Kuliah/</span>
+                        </span><!--left-->
+                    </span><!--three_fourth-->
+                    <span class="one_fourth last">
+                        <span class="right">
+                            <a href="#" class="btn btn-default pull-right mb5"><i class="fa fa-arrow-right"></i></a>
+                        </span><!--right-->
+                    </span>
+                    <br clear="all">
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span class="three_fourth">
+                        <span class="left">
+                            <span class="title"><a href="#">Cetak Kartu Hasil Studi (KHS)</a></span>
+                            <span class="desc">Multiple action setups for Symfony2, build your checkouts/installers or whatever needs more than one step to complete..</span> <br/>
+                            <span>Semester Reguler/Nilai Kuliah/</span>
+                        </span><!--left-->
+                    </span><!--three_fourth-->
+                    <span class="one_fourth last">
+                        <span class="right">
+                            <a href="#" class="btn btn-default pull-right mb5"><i class="fa fa-arrow-right"></i></a>
+                        </span><!--right-->
+                    </span>
+                    <br clear="all">
+                </div>
+            </li>
+        </ul>
+
+        </div><!--contentwrapper-->
+        
+	</div><!-- centercontent -->
+    
+    
+</div> <!--end bodywrapper-->
+
+</body>
+
+</html>
+
+<!--<script src='js/jquery.min.js'></script>
+ <script type="text/javascript" src="css/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="js/others/megamenu.js"></script> -->

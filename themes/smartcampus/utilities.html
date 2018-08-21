@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart Campus</title>
+<link rel="stylesheet" href="css/style.default.css" type="text/css" />
+<script type="text/javascript" src="js/plugins/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script> <!-- jqtable plugin action -->
+<script type="text/javascript" src="js/plugins/jquery.uniform.min.js"></script> <!-- form input style plugin -->
+<script type="text/javascript" src="js/plugins/jquery.bxSlider.min.js"></script> <!-- jquery slider images -->
+<script type="text/javascript" src="js/plugins/jquery.slimscroll.js"></script> <!-- jquery scroll modify -->
+
+<script type="text/javascript" src="js/plugins/jquery.alerts.js"></script> <!-- jquery pop up alerts -->
+<script type="text/javascript" src="js/custom/elements.js"></script> <!-- jquery plugins elements -->
+
+<script type="text/javascript" src="js/custom/general.js"></script> <!-- jquery Pop Up Dialogs -->
+<script type="text/javascript" src="js/custom/messages.js"></script> <!-- jquery hidden actions -->
+<script type="text/javascript" src="js/custom/tables.js"></script> <!-- jquery table interafaces -->
+<script type="text/javascript" src="js/custom/widgets.js"></script> <!-- jquery kumpulan triger widget -->
+<script type="text/javascript" src="js/custom/forms.js"></script>  <!-- jquery forms interface -->
+<script type="text/javascript" src="js/others/jquery.tipsy.js"></script> <!-- jquery tooltip -->
+
+
+
+</head>
+
+<body class="withvernav">
+
+<div class="header">
+        <div class="userNav">
+            <ul>
+                <li><a href="#" class="tipN" title="Login SITU">
+                	<img src="images/icons/topnav/situ.png" alt=""/><span>Sistem Informasi Tata Usaha</span></a>
+                </li>
+                <li><a href="#" class="tipN" title="Login PUSAKA">
+                	<img src="images/icons/topnav/pusaka.png" alt=""/><span>Sistem Informasi Perpustakaan</span></a>
+                </li>
+            </ul>
+        </div>
+    </div><!-- header fixed -->
+
+<div class="bodywrapper">
+    <div class="topheader">
+    	
+        <div class="boxTitle">
+        	<img src="images/uploads/logo.png"/>
+            <div class="infoWrap">
+              <h3 class="logo">SISTEM INFORMASI AKADEMIK</h3>
+              <span class="slogan">Universitas SUTEKI IT Solutions</span>
+              <br clear="all" />
+            </div>
+        </div>
+        
+        <div class="left">
+            <div class="search">
+            	<form action="#" method="post">
+                	<input type="text" name="keyword" id="keyword" value="Pencarian.." />
+                    <button class="submitbutton"></button>
+                </form>
+            </div><!--search-->
+            
+            <br clear="all" />
+            
+        </div><!--left-->
+        
+        <div class="right">
+            
+        	<div class="notification">
+                <a class="count" href="ajax/notifications.html">
+                	<img src="images/default/mail.png"/>
+                	<span>4</span>
+                </a>
+        	</div>
+            <div class="userinfo">
+                 <img src="images/thumbs/avatar.png" alt="" />
+                <span>Superadmin</span>
+                <span class="arrow" style="padding:0px;"><img src="images/sort_desc.png" /></span>
+            </div><!--userinfo-->
+            
+            <div class="userinfodrop">
+            	<h4>Administrator</h4>
+            	<div class="avatar">
+                	<a href="#"><img src="images/thumbs/avatarbig.png"></a>
+                </div><!--avatar-->
+				<div class="userdata">
+                    <ul>
+                    	<li><a href="#">Edit Profile</a></li>
+                        <li><a href="#">Account Settings</a></li>
+                        <li><a href="#">Sign Out</a></li>
+                    </ul>
+                </div><!--userdata-->
+            </div><!--userinfodrop-->
+        </div><!--right-->
+    </div><!--topheader-->
+    
+    <div class="vernav2 iconmenu">
+    	<ul>
+        	<li><a href="#formsub" class="editor">Master Akademik</a>
+            	<span class="arrow"></span>
+            	<ul id="formsub">
+               		<li><a href="#">Badan Hukum/PT</a></li>
+                    <li><a href="#">Dosen</a></li>
+                    <li><a href="#">Mahasiswa</a></li>
+                    <li><a href="#">Alumni</a></li>
+                </ul>
+            </li>
+            <li class="current"><a href="#formsub2" class="editor">Semester Reguler</a>
+            	<span class="arrow"></span>
+                <ul id="formsub2">
+               		<li><a href="#">Kurikulum KRS/SP</a></li>
+                    <li><a href="#">Dosen</a></li>
+                    <li><a href="#">Mahasiswa</a></li>
+                    <li><a href="#">Alumni</a></li>
+                </ul>
+            </li>
+            <li><a href="#formsub3" class="editor">Semester Pendek</a>
+            	<span class="arrow"></span>
+                <ul id="formsub3">
+               		<li><a href="#">Kurikulum KRS/SP</a></li>
+                    <li><a href="#">Dosen</a></li>
+                    <li><a href="#">Mahasiswa</a></li>
+                    <li><a href="#">Alumni</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="editor">PMB</a></li>
+            <li><a href="#" class="editor">Keuangan</a></li>
+            <li><a href="#" class="editor">Komunikasi</a></li>
+            <li><a href="#" class="editor">Dikti</a></li>
+            <li><a href="#" class="editor">Executive Summary</a></li>
+            <li><a href="#" class="editor">Kepaniteraan</a></li>
+            <li><a href="#" class="editor">Sistem</a></li>
+        </ul>
+        <a class="togglemenu"></a>
+        <br /><br />
+    </div><!--leftmenu-->
+        
+    <div class="centercontent tables">
+    
+        <div class="pageheader notab">
+        
+          <div class="submenuNav">
+            <div class="submenuDrop">
+            	
+            <span>Transkrip & Nilai Ujian</span>
+            <span class="arrow" style="padding:0px;"><img src="images/sort_desc.png" /></span>
+            </div><!--userinfo-->
+            
+            <div class="userinfodrop2">
+              
+                    <div class="dropdata">
+                          <ul>
+                              <span>Transkrip</span>
+                              <li><a href="#">Cetak Transkrip</a></li>
+                              <li><a href="#">Proses Transkrip Mahasiswa</a></li>
+                              <li><a href="#">Setting Transkrip</a></li>
+                              <span>Kartu Rencana Studi</span>
+                              <li><a href="#">Proses KRS Mahasiswa</a></li>
+                              <li><a href="#">Setting KRS Mahasiswa</a></li>
+                              <li><a href="#">Cetak KRS</a></li>
+                              <span>Kartu Hasil Studi</span>
+                              <li><a href="#">Setting KHS Mahasiswa</a></li>
+                              <li><a href="#">Proses KHS Mahasiswa</a></li>
+                              <li><a href="#">Hapus KHS Mahasiswa</a></li>
+                              <span>Kartu Absen Ujian</span>
+                              <li><a href="#">Proses Absen Ujian</a></li>
+                              <li><a href="#">Setting Absen Ujian</a></li>
+                              <li><a href="#">Cetak Absen Ujian</a></li>
+                          </ul>
+                    </div><!--dropdata-->
+
+            </div><!--userinfodrop-->
+            
+        </div><!-- submenu dropdown -->
+      
+        <div class="clearall"></div>
+            
+        </div><!--pageheader-->
+        
+        <div id="contentwrapper" class="contentwrapper"><!-- begin Contentwrapper -->
+        
+        
+        	<div class="contenttitle2">
+                  <h3>Show Hide Form</h3>
+             </div><!--contenttitle-->           
+            <br/>
+            
+            <ul class="buttonlist">
+                  <li>
+                  	<a href="#" class="btn btn_grid radius50 menu_class"><span>Tampilkan Form</span></a>
+                  	<div class="the_menu">
+                    
+                       <div id="basicform" class="subcontent">
+                        <form class="stdform" action="#" method="post">
+                            <p>
+                                <label>Small Input</label>
+                                <span class="field"><input type="text" name="input1" class="smallinput" /></span>
+                                <small class="desc">Small description of this field.</small>
+                            </p>
+                            
+                            <p>
+                                <label>Medium Input</label>
+                                <span class="field"><input type="text" name="input2" class="mediuminput" /></span>
+                            </p>
+                            
+                            <p>
+                                <label>Long Input</label>
+                                <span class="field"><input type="text" name="input3" class="longinput" /></span>
+                            </p>
+                            
+                            <p>
+                                <label>Textarea</label>
+                                <span class="field"><textarea cols="80" rows="5" class="longinput"></textarea></span> 
+                            </p>
+                        </form>
+                     </div>
+                
+                    </div>
+                  </li>
+              </ul>
+        	<br/>
+          
+          	<div class="widgetbox" style="width: 300px">
+       	
+        	 <div class="contenttitle2">
+                  <h3>Directory File</h3>
+             </div><!--contenttitle-->  
+        
+                <div class="widgetcontent padding0">
+                    <ul class="activitylist">
+                        <li class="drive"><a href=""><strong>Direktori Akar</strong> ( / ) <span>Root</span></a></li>
+                        <li class="upfolder"><a href=""><strong>Direktori Atas</strong> ( ../ ) <span>Up</span></a></li>
+                        <li class="folder"><a href=""><strong>Direktori Saat Ini</strong> ( ./ ) <span>Current</span></a></li>
+                    </ul>
+                </div><!--widgetcontent-->
+            </div>
+        
+        
+        	<div class="contenttitle2">
+                  <h3>Pencarian Kata Kunci</h3>
+             </div><!--contenttitle-->           
+            <br/>
+
+            <div class="searchmain">
+            	<form action="#" method="post">
+                	<input type="text" name="keyword" id="keyword" value="masukan kata kunci" />
+                    <button class="submitbutton"></button>
+                </form>
+            </div><!--search-->
+            <br />
+            <br />     
+              
+        
+        	 <blockquote class="bq2">
+                  <a class="edit_status" title="Edit Status"></a>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              </blockquote>
+        
+        
+			<div class="notibar announcement">
+            	<img class="tipicon" src="images/tip.png"/>
+                <a class="close"></a>
+                <h3>Tips</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+                    
+        
+        	<div class="contenttitle2">
+                  <h3>Tombol Back & Previous </h3>
+             </div><!--contenttitle-->
+       
+            <ul class="buttonlist">
+                <li><a href="#" class="stdbtn btn2">&laquo; Kembali </a></li>
+                <li><a href="#" class="stdbtn btn2">Lanjut &raquo;</a></li>
+            </ul>
+             
+             <br/>
+             <div class="contenttitle2">
+                  <h3>Utilities Tombol & Icon</h3>
+             </div><!--contenttitle-->
+             
+             <ul class="buttonlist">
+                <li><a href="#" class="btn btn2 btn_print"><span>Cetak</span></a></li>
+                <li><a href="#" class="btn btn2 btn_inbox"><span>Unduh</span></a></li>
+                <li><a href="#" class="btn btn2 btn_refresh"><span>Segarkan</span></a></li>
+                <li><a href="#" class="btn btn2 btn_pdf"><span>Cetak PDF</span></a></li>
+                <li><a href="#" class="btn btn2 btn_pie"><span>Statistik</span></a></li>
+                <li><a href="#" class="btn btn2 btn_home"><span>Beranda</span></a></li>
+                <li><a href="#" class="btn btn2 btn_mail"><span>Kotak Masuk</span></a></li>
+                <li><a href="#" class="btn btn2 btn_write"><span>Tulis Baru</span></a></li>
+            </ul>
+             
+        
+        	<br />
+            <br />
+           <div class="contenttitle2">
+                <h3>Breadcrumbs</h3>
+            </div><!--contenttitle-->
+            <br />
+            
+            <ul class="breadcrumbs">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Elements</a></li>
+                <li>Breadcrumbs</li>
+            </ul>
+            <br />
+            <br clear="all" />
+            
+            
+             <div class="contenttitle2">
+                <h3>Hidden Action Button</h3>
+            </div><!--contenttitle-->
+            <br />
+            <div id="inbox" class="subcontent">
+             
+                <div class="msghead">
+                    <ul class="msghead_menu">
+                        <li><a class="preview">Lihat</a></li>
+                        <li class="marginleft5 dropdown" id="actions">
+                            <a class="dropdown_label" href="#actions">
+                            Pilih Aksi
+                            <span class="arrow"></span>
+                            </a>
+                            <ul>
+                                <li><a href="#">Tambah</a></li>
+                                <li><a href="#">Edit</a></li>
+                                <li><a href="#">Pindahkan ke Folder</a></li>
+                            </ul>
+                        </li>
+                        <li class="marginleft5"><a class="msgtrash" title="Hapus" ></a></li>
+                    </ul>
+                    <span class="clearall"></span>
+                </div><!--msghead-->
+                
+                <table cellpadding="0" cellspacing="0" border="0" class="stdtable mailinbox">
+                    <colgroup>
+                        <col class="con1" width="4%"/>
+                        <col class="con1" width="15%"/>
+                        <col class="con0" width="63%"/>
+                        <col class="con1" width="4%"/>
+                        <col class="con1" width="10%"/>
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th width="20" class="head1 aligncenter"><input type="checkbox" name="checkall" class="checkall" /></th>
+                        <th class="head1">Lorem</th>
+                        <th class="head0">Ipsum</th>
+                        <th class="head1 attachement">&nbsp;</th>
+                        <th class="head0">Dolor</th>
+                    </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th class="head1 aligncenter"><input type="checkbox" name="checkall" class="checkall2" /></th>
+                            <th class="head0">Sender</th>
+                            <th class="head1">Subject</th>
+                            <th class="head0 attachement">&nbsp;</th>
+                            <th class="head1">Date</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr class="unread">
+                            <td class="aligncenter"><input type="checkbox" name="" /></td>
+                            <td>Hiccup Haddock</td>
+                            <td><a href="#" class="title">Ut enim ad minim veniam, quis nostrud exercitation</a></td>
+                            <td class="attachment"><img src="images/icons/attachment.png" alt="" /></td>
+                            <td class="date">July 1</td>
+                        </tr>
+                        <tr class="unread">
+                            <td class="aligncenter"><input type="checkbox" name="" /></td>
+                            <td>themepixels</td>
+                            <td><a href="#" class="title">Ullamco laboris nisi ut aliquip ex ea commodo consequat. </a></td>
+                            <td class="attachment"></td>
+                            <td class="date">June 30</td>
+                        </tr>
+                        <tr>
+                            <td class="aligncenter"><input type="checkbox" name="" /></td>
+                            <td>Puss in Boots</td>
+                            <td><a href="#" class="title">Sed ut perspiciatis unde omnis iste natus error</a></td>
+                            <td class="attachment"></td>
+                            <td class="date">June 28</td>
+                        </tr>
+                        <tr>
+                            <td class="aligncenter"><input type="checkbox" name="" /></td>
+                            <td>Humpty Dumpty</td>
+                            <td><a href="#" class="title">Sit voluptatem accusantium doloremque laudantium</a></td>
+                            <td class="attachment"><img src="images/icons/attachment.png" alt="" /></td>
+                            <td class="date">June 20</td>
+                        </tr>
+                        <tr>
+                            <td class="aligncenter"><input type="checkbox" name="" /></td>
+                            <td>themepixels</td>
+                            <td><a href="#" class="title">Totam rem aperiam, eaque ipsa quae ab illo inventore</a></td>
+                            <td class="attachment"></td>
+                            <td class="date">June 19</td>
+                        </tr>
+                        <tr class="unread">
+                            <td class="aligncenter"><input type="checkbox" name="" /></td>
+                            <td>Hiccup Haddock</td>
+                            <td><a href="#" class="title">Ut enim ad minim veniam, quis nostrud exercitation</a></td>
+                            <td class="attachment"><img src="images/icons/attachment.png" alt="" /></td>
+                            <td class="date">July 1</td>
+                        </tr>
+                        <tr class="unread">
+                            <td class="aligncenter"><input type="checkbox" name="" /></td>
+                            <td>themepixels</td>
+                            <td><a href="#" class="title">Ullamco laboris nisi ut aliquip ex ea commodo consequat. </a></td>
+                            <td class="attachment"></td>
+                            <td class="date">June 30</td>
+                        </tr>
+                    </tbody>
+                </table>             
+             </div>
+             <div id="compose" class="subcontent" style="display: none">&nbsp;</div>
+            <br />
+            <br />
+              
+          <div class="contenttitle2">
+                <h3>Table Style</h3>
+            </div><!--contenttitle-->
+            <table cellpadding="0" cellspacing="0" border="0" class="noborder">
+                <colgroup>
+                    <col class="con0" style="width: 4%" />
+                    <col class="con1" />
+                    <col class="con0" />
+                    <col class="con1" />
+                    <col class="con0" />
+                    <col class="con1" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th width="4%">No</th>
+                        <th width="15%">Tanggal</th>
+                        <th width="37%">Topik</th>
+                   	  <th width="33%">Lokasi</th>
+                        <th colspan="2" align="center" valign="middle">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="center">1</td>
+                        <td>Trident</td>
+                        <td align="center">
+                            <span class="field"><textarea cols="40" rows="5" class="longinput"></textarea></span> 
+                        </td>
+                        <td>Win 95+</td>
+                        <td width="6%" align="center" class="center"><a href="#" original-title="Edit" class="btn btn3 btn_pencil tipS"></a></td>
+                        <td width="5%" align="center" class="center"><a href="#" original-title="Hapus" class="btn btn3 btn_trash tipS"></a></td>
+                    </tr>
+                    <tr>
+                        <td align="center">2</td>
+                        <td>Trident</td>
+                        <td align="center">
+                            <span class="field"><textarea cols="40" rows="5" class="longinput"></textarea></span> 
+                        </td>
+                        <td>Win 95+</td>
+                        <td width="6%" align="center" class="center"><a href="#" original-title="Edit" class="btn btn3 btn_pencil tipS"></a></td>
+                        <td width="5%" align="center" class="center"><a href="#" original-title="Hapus" class="btn btn3 btn_trash tipS"></a></td>
+                    </tr>
+                    <tr>
+                        <td align="center">3</td>
+                        <td>Trident</td>
+                        <td align="center">
+                        <span class="field"><textarea name="textarea" cols="40" rows="5" class="longinput"></textarea></span>
+                        </td>
+                        <td>Win 95+</td>
+                        <td width="6%" align="center" class="center"><a href="#" original-title="Edit" class="btn btn3 btn_pencil tipS"></a></td>
+                        <td width="5%" align="center" class="center"><a href="#" original-title="Hapus" class="btn btn3 btn_trash tipS"></a></td>
+                    </tr>
+                    <tr>
+                        <td align="center">4</td>
+                        <td>Trident</td>
+                        <td align="center">
+                        <span class="field"><textarea name="textarea2" cols="40" rows="5" class="longinput"></textarea></span>
+                        </td>
+                        <td>Win 98+</td>
+                        <td width="6%" align="center" class="center"><a href="#" original-title="Edit" class="btn btn3 btn_pencil tipS"></a></td>
+                        <td width="5%" align="center" class="center"><a href="#" original-title="Hapus" class="btn btn3 btn_trash tipS"></a></td>
+                    </tr>
+                    <tr>
+                        <td align="center">5</td>
+                        <td>Trident</td>
+                        <td align="center">
+                        <span class="field"><textarea name="textarea3" cols="40" rows="5" class="longinput"></textarea></span>
+                        </td>
+                        <td>Win XP SP2+</td>
+                        <td width="6%" align="center" class="center"><a href="#" original-title="Edit" class="btn btn3 btn_pencil tipS"></a></td>
+                        <td width="5%" align="center" class="center"><a href="#" original-title="Hapus" class="btn btn3 btn_trash tipS"></a></td>
+                    </tr>
+                </tbody>
+            </table> 
+             
+            <br />
+            <br />
+            
+            <div class="contenttitle2">
+                <h3>POP UP MENU</h3>
+            </div><!--contenttitle-->
+            <br />
+            <a href="#" class="anchorbutton alertboxbutton">Klik To POP UP</a> &nbsp;
+            
+
+      </div><!--contentwrapper-->
+        
+	</div><!-- centercontent -->
+    
+    
+</div><!--bodywrapper-->
+
+</body>
+
+</html>
+<script type="text/javascript" src="js/others/fullscreen.js"></script>

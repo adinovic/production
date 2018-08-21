@@ -1,0 +1,9 @@
+POST
+signature = brLC0f/Q0GTKUQ3bf43eioEveCSZyG6+b7glWQmb3vY= 
+userid = web_api_test 
+extRef = 13598035 
+to = 8519741332 
+amount = 12500 
+extraParam =  
+
+GET

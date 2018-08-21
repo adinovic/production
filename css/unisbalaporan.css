@@ -1,0 +1,11 @@
+.title, .date {margin:3px;}
+.date {font-size: 12px;}
+.borderline {border-top:1px solid black; border-right:1px solid black;}
+.borderline thead tr th {border-left:1px solid black; border-bottom:1px solid black; padding:3px 5px; font-size: 12px; font-weight: bold;}
+.borderline tfoot tr td {font-weight: bold;}
+.borderline td {border-bottom:1px solid black; border-left:1px solid black; padding:3px 5px; font-size: 12px;}
+.borderline tr td.odd {border-bottom: none;}
+.noborder {border:none}
+.noborder td {border:none; padding:0; font-size: 12px;}
+.fs22 td {font-size: 18px;}
+.note {margin:0; font-size: 11px;}

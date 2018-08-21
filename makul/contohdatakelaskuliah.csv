@@ -1,0 +1,4 @@
+Tahun (X/X+1);Semester (1-4);ID Kampus;ID Makul;ID Kelas;Jenis Kelas;ID Ruangan;ID Pengajar;Jenis Pengajar (D=Dosen, A=Asisten);ID Hari (0=minggu, 6=sabtu);ID Sesi;Jumlah Peserta;Recana Pertemuan;Realisasi;Daftar ID Prodi (pisahkan dengan /)
+2015;1;001;AK100;01;111;10;0001105702;D;1;01;20;14;4;62201C/60201C/48201C
+2015;2;002;AK100;02;02;11;0001105702;D;2;02;30;14;5;62201C/60201C/48201C
+2015;1;000;AK100;03;JENIS;ABCD;0001105702;D;3;03;40;14;6;62201C/60201C/48201C

@@ -1,0 +1,15 @@
+{
+    "name": "suteki/simatris",
+    "type": "project",
+    "require": {
+        "php": "^5.4",
+        "google/apiclient": "^2.2",
+        "league/csv": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "suteki",
+            "email": "info@suteki.co.id"
+        }
+    ]
+}

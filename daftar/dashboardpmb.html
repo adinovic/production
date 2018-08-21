@@ -1,0 +1,381 @@
+<!-- START Template Main -->
+<section id="main" role="main">
+   <!-- START Template Container -->
+   <div class="container-fluid">
+
+
+      <div class="panel panel-info">
+         <div class="panel-heading">
+            <h3 class="panel-title">
+               <i class="ico-dashboard mr5"></i> Filter Dashboard</h3>
+         </div>
+
+         <div class="panel-collapse pull out">
+            <div class="panel-body">
+
+               <form name="form" action="index.php" method="post">
+                  <table class="table table-bordered table-striped">
+                     <tbody>
+                        <tr>
+                           <td width='20%'>Tahun</td>
+                           <td>
+                              <select name="tahunmasuk" class="masukan">
+                                 <option value="">Semua</option>
+                                 <option value="2018">2018</option>
+                              </select>
+                           </td>
+                        </tr>
+                        <tr class="judulform">
+                           <td>Gelombang</td>
+                           <td>
+                              <input type="text" name="gelombang" value="" class="masukan">
+                           </td>
+                        </tr>
+                        <tr class="judulform">
+                           <td>Rentang Tanggal </td>
+                           <td>
+                              <input type="text" name="id" value="" class="masukan">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">
+                              <input type="submit" value="Tampilkan" class="masukan">
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </form>
+
+               <div class="row">
+                  <div class="col-md-3 pr5">
+                     <div class="widget panel bgcolor-primary">
+                        <!-- panel body -->
+                        <div class="panel-body pa5">
+                           <div class="clearfix">
+                              <p class="semibold text-center">REGISTER HARI INI</p>
+                           </div>
+                           <div class="text-center mt5 mb10">
+                              <h1 class="semibold">
+                                 <i class="ico-user22"></i>
+                                 <span class="">18</span>
+                              </h1>
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-3 pr5">
+                     <div class="widget panel bgcolor-success">
+                        <!-- panel body -->
+                        <div class="panel-body pa5">
+                           <div class="clearfix">
+                              <p class="semibold text-center">REGISTER</p>
+                           </div>
+                           <div class="text-center mt5 mb10">
+                              <h1 class="semibold">
+                                 <i class="ico-users3"></i>
+                                 <span class="">358</span>
+                              </h1>
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-3 pr5">
+                     <div class="widget panel bgcolor-danger">
+                        <div class="panel-body pa15">
+                           <div class="clearfix text-center">
+                              <h5 class="semibold">
+                                 <i class="ico-checkmark-circle2"></i>
+                                 <span class="">AKTIVASI</span>
+                              </h5>
+                           </div>
+                           <div class="text-center mt15 mb5">
+                              <ul class="nav nav-section nav-justified">
+                                 <li>
+                                    <div class="section">
+                                       <h3 class="semibold text-white">310</h3>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="section">
+                                       <h3 class="semibold text-warning">85</h3>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-2 pr5">
+                     <div class="widget panel bgcolor-teal">
+                        <div class="panel-body pa15">
+                           <div class="clearfix text-center">
+                              <h5 class="semibold">
+                                 <i class="ico-money"></i>
+                                 <span class="">BAYAR</span>
+                              </h5>
+                           </div>
+                           <div class="text-center mt15 mb5">
+                              <ul class="nav nav-section nav-justified">
+                                 <li>
+                                    <div class="section">
+                                       <h3 class="semibold text-white">310</h3>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <div class="section">
+                                       <h3 class="semibold text-danger">85</h3>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="clearfix"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+            </div>
+         </div>
+
+      </div>
+
+
+
+
+
+
+      <div class="panel mt10">
+         <!-- panel-toolbar -->
+         <div class="panel-heading pt10">
+            <div class="row">
+               <div class="col-md-7">
+                  <div class="panel-toolbar">
+                     <h4 class="semibold mt10 text-muted">Jalur Masuk</h4>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="panel-toolbar text-right mb10">
+                     <select class="form-control text-left" id="selectize-customselect">
+                        <option value="0">Pilih Jalur Masuk..</option>
+                        <option value="1">PMDK</option>
+                        <option value="2">Test Reguler</option>
+                        <option value="3">Anak Dosen / Karyawan</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--/ panel-toolbar -->
+         <!-- panel-footer -->
+         <div class="panel-footer">
+
+            <div class="section">
+               <div class="widget panel bgcolor-primary mb0">
+                  <div class="panel-body">
+                     <div class="clearfix">
+                        <h4 class="semibold text-center mb20 mt20">ISI BIODATA <i class="ico-profile"></i></h4>
+                     </div>
+                     <ul class="nav nav-section nav-justified">
+                        <li>
+                           <div class="section">
+                              <h1 class="semibold text-white text-right">310</h1>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="section">
+                              <h1 class="semibold text-danger text-left">85</h1>
+                           </div>
+                        </li>
+                     </ul>
+                     <div class="clearfix">
+                        <p class="pull-left semibold nm fsize16 text-inverse">
+                            &nbsp;
+                        </p>
+                        <p class="pull-right semibold nm fsize16 text-danger">
+                            &nbsp;
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <ul class="nav nav-section nav-justified">
+               <li>
+                  <div class="section pl0">
+                     <div class="widget panel bgcolor-success">
+                        <div class="panel-body">
+                           <div class="clearfix">
+                              <h4 class="semibold text-center">JALUR UJIAN
+                                 <i class="ico-stack-list"></i>
+                              </h4>
+                           </div>
+                           <div class="text-center mt15 mb15">
+                              <h1 class="semibold">
+                                 <span class="">135</span>
+                              </h1>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <div class="section pr0">
+                     <div class="widget panel bgcolor-danger">
+                        <div class="panel-body">
+                           <div class="clearfix">
+                              <h4 class="semibold text-center">JALUR TIDAK UJIAN
+                                 <i class="ico-stack-minus"></i>
+                              </h4>
+                           </div>
+                           <div class="text-center mt15 mb15">
+                              <h1 class="semibold">
+                                 <span class="">40</span>
+                              </h1>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+
+
+
+            <div class="row mt35">
+               <div class="col-md-6 pr0">
+                  <div class="section">
+                     <div class="widget panel bgcolor-inverse">
+                        <div class="panel-body">
+                           <div class="clearfix">
+                              <h4 class="semibold text-center">PESERTA UJIAN
+                                 <i class="ico-users"></i>
+                              </h4>
+                           </div>
+                           <ul class="nav nav-section nav-justified mt20">
+                              <li>
+                                 <div class="section">
+                                    <h1 class="semibold text-white text-right">150</h1>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="section">
+                                    <h1 class="semibold text-danger text-left">10</h1>
+                                 </div>
+                              </li>
+                           </ul>
+                           <div class="clearfix">
+                              <p class="pull-left semibold nm fsize16 text-success">
+                                 <i class="ico-check"></i> &nbsp;
+                              </p>
+                              <p class="pull-right semibold nm fsize16 text-danger">
+                                 <i class="ico-check-empty"></i> &nbsp;
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-2">
+                  <div class="section pr10" style='width: 210px;'>
+                     <div class="widget panel bgcolor-teal">
+                        <div class="panel-body">
+                           <div class="clearfix">
+                              <h5 class="semibold text-center">LULUS TANPA UJIAN &nbsp;
+                                 <i class="ico-file-check2 fsize16"></i>
+                              </h5>
+                           </div>
+                           <div class="text-center mt25 mb30">
+                              <h1 class="semibold">
+                                 <span class="">140</span>
+                              </h1>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-2">
+                  <div class="section" style="width: 210px; margin-left: 30px;">
+                     <div class="widget panel bgcolor-warning">
+                        <div class="panel-body">
+                           <div class="clearfix">
+                              <h5 class="semibold text-center">TIDAK LULUS &nbsp;
+                                 <i class="ico-file-remove2 fsize16"></i>
+                              </h5>
+                           </div>
+                           <div class="text-center mt25 mb30">
+                              <h1 class="semibold">
+                                 <span class="">40</span>
+                              </h1>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-xs-5">
+                        <div class="section" style='width: 230px;'>
+                           <div class="widget panel bgcolor-primary">
+                              <div class="panel-body">
+                                 <div class="clearfix">
+                                    <h5 class="semibold text-center">LULUS UJIAN &nbsp;
+                                       <i class="ico-file-check fsize16"></i>
+                                    </h5>
+                                 </div>
+                                 <div class="text-center mt15 mb10">
+                                    <h1 class="semibold">
+                                       <span class="">140</span>
+                                    </h1>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-xs-5">
+                        <div class="section" style='width: 230px;'>
+                           <div class="widget panel bgcolor-danger">
+                              <div class="panel-body">
+                                 <div class="clearfix">
+                                    <h5 class="semibold text-center">TIDAK LULUS &nbsp;
+                                       <i class="ico-file-remove fsize16"></i>
+                                    </h5>
+                                 </div>
+                                 <div class="text-center mt15 mb10">
+                                    <h1 class="semibold">
+                                       <span class="">40</span>
+                                    </h1>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5"></div>
+            </div>
+                  
+               
+         </div>
+         <!--/ panel-footer -->
+      </div>
+
+
+   </div>
+   <!--/ END Template Container -->
+
+
+</section>
+<!--/ END Template Main -->

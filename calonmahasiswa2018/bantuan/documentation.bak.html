@@ -1,0 +1,924 @@
+<html class="backend">
+    <!-- START Head -->
+    <head>
+        <!-- START META SECTION -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bantuan</title>
+        <meta name="author" content="pampersdry.info">
+        <meta name="description" content="Adminre is a clean and flat backend and frontend theme build with twitter bootstrap">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../image/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../image/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../image/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../image/touch/apple-touch-icon-57x57-precomposed.png">
+        <!--/ END META SECTION -->
+
+        <!-- START STYLESHEETS -->
+        <!-- Plugins stylesheet : optional -->
+        <!--/ Plugins stylesheet : optional -->
+
+        <!-- Application stylesheet : mandatory -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/layout.css">
+        <link rel="stylesheet" href="assets/css/uielement.css">
+        <link rel="stylesheet" href="assets/css/theme1.css">
+        <link rel="stylesheet" href="assets/css/fixed-sidebar.css">
+        <!--/ Application stylesheet -->
+
+        <!-- modernizr script -->
+        <script type="text/javascript" src="assets/js/modernizr.js"></script>
+        <!--/ modernizr script -->
+        <!-- END STYLESHEETS -->
+    </head>
+    <!--/ END Head -->
+
+    <!-- START Body -->
+    <body>
+        <!-- START Template Header -->
+        <header id="header" class="navbar">
+            <!-- START navbar header -->
+            <div class="navbar-header">
+                <!-- Brand -->
+                <a class="navbar-brand" href="javascript:void(0);">
+                    <span class="logo-figure"></span>
+                    <span class="logo-text"></span>
+                </a>
+                <!--/ Brand -->
+            </div>
+            <!--/ END navbar header -->
+
+            <!-- START Toolbar -->
+            <div class="navbar-toolbar clearfix">
+               <!-- START Left nav -->
+               <ul class="nav navbar-nav navbar-left">
+                  <!-- Sidebar shrink -->
+                  <li class="hidden-xs hidden-sm">
+                     <a href="javascript:void(0);" class="sidebar-minimize" data-toggle="minimize" title="Minimize sidebar">
+                        <span class="meta">
+                           <span class="icon"></span>
+                        </span>
+                     </a>
+                  </li>
+                  <!--/ Sidebar shrink -->
+
+                  <!-- Offcanvas left: This menu will take position at the top of template header (mobile only). Make sure that only #header have the `position: relative`, or it may cause unwanted behavior -->
+                  <li class="navbar-main hidden-lg hidden-md hidden-sm">
+                     <a href="javascript:void(0);" data-toggle="sidebar" data-direction="ltr" rel="tooltip" title="Menu sidebar">
+                        <span class="meta">
+                           <span class="icon">
+                              <i class="ico-paragraph-justify3 mt15"></i>
+                           </span>
+                        </span>
+                     </a>
+                  </li>
+                  <!--/ Offcanvas left -->
+
+               </ul>
+               <!--/ END Left nav -->
+
+            </div>
+            <!--/ END Toolbar -->
+        </header>
+        <!--/ END Template Header -->
+
+        <!-- START Template Sidebar (Left) -->
+        <aside class="sidebar sidebar-left sidebar-menu">
+            <!-- START Sidebar Content -->
+            <section class="content slimscroll">
+                <h5 class="heading"><a href="../index.php"><i class="ico-home2"></i> Halaman Utama</a></h5>
+                <!-- START Template Navigation/Menu -->
+                <ul class="topmenu topmenu-responsive" data-toggle="menu">
+                    <li>
+                        <a href="javascript:void(0);" data-target="#dashboard" data-toggle="submenu" data-parent=".topmenu">
+                           <span class="figure"><i class="ico-bubble-right"></i></span>
+                           <span class="text">Info Jalur Masuk</span>
+                           <span class="arrow"></span>
+                        </a>
+                        <!-- START 2nd Level Menu -->
+                        <ul id="dashboard" class="submenu collapse ">
+                            <li>
+                                <a href="#jalurmasuk-test">
+                                    <span class="text">Jalur masuk tes seleksi</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#jalurmasuk-ungulan">
+                                    <span class="text">Jalur masuk unggulan</span>
+                                </a>
+                            </li>
+                           <li>
+                              <a href="#jalurmasuk-beasiswa-korporat">
+                                 <span class="text">Jalur Masuk Beasiswa Korporat</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#jalurmasuk-pmdk">
+                                 <span class="text">Jalur Masuk PMDK</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#jalurmasuk-pmdk-prestasi-kelas">
+                                 <span class="text">Jalur Masuk PMDK Prestasi Kelas</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#jalurmasuk-pmdk-plus">
+                                 <span class="text">Jalur Masuk PMDK Plus</span>
+                              </a>
+                           </li>
+                        </ul>
+                        <!--/ END 2nd Level Menu -->
+                    </li>
+                     <li>
+                        <a href="#registrasi">
+                           <span class="figure"><i class="ico-stack-list"></i></span>
+                           <span class="text">Registrasi PMB</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#formulir">
+                           <span class="figure"><i class="ico-paste3"></i></span>
+                           <span class="text">Formulir PMB</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#info-pembayaran" data-target="#payment" data-toggle="submenu" data-parent=".topmenu">
+                           <span class="figure"><i class="ico-credit3"></i></span>
+                           <span class="text">Pembayaran</span>
+                           <span class="number">
+                           </span>
+                           <span class="arrow"></span>
+                        </a>
+                        <!-- START 2nd Level Menu -->
+                        <ul id="payment" class="submenu collapse ">
+                           <li>
+                              <a href="#finpay">
+                                 <span class="text">Pembayaran Finpay</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#alfapay">
+                                 <span class="text">Pembayaran Alfa, PT Pos, Pegadaian</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#brivia">
+                                 <span class="text">Pembayaran Bank BRI</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#bank-bni">
+                                 <span class="text">Pembayaran Bank BNI</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#permata-bank">
+                                 <span class="text">Pembayaran Permata Bank</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#mandiripay">
+                                 <span class="text">Pembayaran Mandiri ClikPay</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#bcapay">
+                                 <span class="text">Pembayaran BCA KlikPay</span>
+                              </a>
+                           </li>
+                        </ul>
+                        <!--/ END 2nd Level Menu -->
+                     </li>
+                     <li>
+                        <a href="#ujian">
+                           <span class="figure"><i class="ico-file8"></i></span>
+                           <span class="text">Ujian Online</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#biaya-kuliah">
+                           <span class="figure"><i class="ico-money"></i></span>
+                           <span class="text">Biaya Kuliah</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#faq">
+                           <span class="figure"><i class="ico-bubbles3"></i></span>
+                           <span class="text">FAQ</span>
+                        </a>
+                     </li>
+                </ul>
+                <!--/ END Template Navigation/Menu -->
+
+            </section>
+            <!--/ END Sidebar Container -->
+        </aside>
+        <!--/ END Template Sidebar (Left) -->
+
+        <!-- START Template Main -->
+        <section id="main" role="main">
+
+            <!-- START Template Container -->
+            <div class="container-fluid pl35">
+
+               <h1 class="section-title" id="registrasi">Registrasi PMB</h1>
+               <p>Untuk calon mahasiswa baru, perlu diperhatikan mengenai tata cara registrasi PMB dengan membaca
+                  <a href="#prosedur">prosedur</a> yang telah ditetapkan</p>
+               <!-- Prosedur PMB -->
+               <h2 class="section-title" id="prosedur">Prosedur PMB</h2>
+               <ul class="list-item">
+                  <li>1. Melakukan
+                     <a href="#reguser">registrasi</a> user PMB Online</li>
+                  <li>2. Lakukan Aktivasi user sesuai dengan email terkirim oleh Aplikasi PMB</li>
+                  <li>3. Mengisi Formulir </li>
+                  <li>4. Lakukan Pembayaran sesuai metoda pembayaran yang tersedia</li>
+                  <li>5. Isi kelangkapan Data Diri, Orang Tua/Wali dan Pendidikan </li>
+                  <li>6. Cetak Formulir & Cetak Kartu Ujian</li>
+                  <li>7. Melakukan ujian secara online sesuai jadwal yang telah ditetapkan</li>
+                  <li>8. Pengumuman hasil ujian online akan diinformasikan pada halaman Pengumuman di Aplikasi PMB</li>
+               </ul>
+               <img src="../../gambar/flyer.jpg" />
+               <br/>
+               <br/>
+               <br/>
+
+               <div class="line" id="jalurmasuk-test"></div>
+
+               <!-- Jalur Masuk-->
+               <h2 class="section-title">Jalur Masuk Test Seleksi</h2>
+               <ul class="list-item">
+                  <li>1. Melakukan
+                     <a href="#reguser">registrasi</a> user PMB Online</li>
+                  <li>2. Lakukan Aktivasi user sesuai dengan email terkirim oleh Aplikasi PMB</li>
+                  <li>3. Mengikuti petunjuk pendaftaran online</li>
+                  <li>4. Login ke Aplikasi PMB</li>
+                  <li>5. Mengisi Formulir</li>
+                  <li>6. Pilih jalur masuk
+                     <strong>Test Seleksi</strong>
+                  </li>
+               </ul>
+
+               <div class="line" id="jalurmasuk-ungulan"></div>
+
+               <!-- Jalur Masuk Unggulan-->
+               <h2 class="section-title">Jalur Masuk Unggulan</h2>
+               <h3>Persyaratan Pendaftaran</h3>
+               <ul class="list-item">
+                  <li>1. Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI</li>
+                  <li>2. Memperoleh rata-rata nilai rapor SMA sederajat minimal 7,0 pada kelas 10, 11, dan 12 (semester ganjil) untuk SMA sederajat
+                     dengan Akreditasi A, atau</li>
+               </ul>
+               <h3>Cara Pendaftaran</h3>
+               <ul class="list-item">
+                  <li>1. Melakukan
+                     <a href="#reguser">registrasi</a> user PMB Online</li>
+                  <li>2. Lakukan Aktivasi user sesuai dengan email terkirim oleh Aplikasi PMB</li>
+                  <li>3. Mengikuti petunjuk pendaftaran online</li>
+                  <li>4. Login ke Aplikasi PMB</li>
+                  <li>5. Mengisi Formulir</li>
+                  <li>6. Pilih jalur masuk
+                     <strong>Unggulan</strong>
+                  </li>
+               </ul>
+
+               <div class="line" id="jalurmasuk-beasiswa-korporat"></div>
+
+               <!-- Jalur Masuk Beasiswa Korporat-->
+               <h2 class="section-title">Jalur Masuk Beasiswa Korporat</h2>
+               <p>Kepada lulusan siswa/i SMA sederajat, dengan nilai baik selama di Sekolah dan juga nilai ujian akhir yang baik pula, tetapi
+                  kurang mampu dalam hal ekonomi untuk biaya perkuliahan, UAI akan memberikan beasiswa penuh. Beasiswa penuh tersebut meliputi
+                  bebas biaya BPP, BOP dan SKS (kecuali biaya herregistrasi sebesar Rp. 400.000,- di semester 2 dst) selama indeks prestasi
+                  diperoleh yang bersangkutan di UAI minimal 3,25. Bila IP
+                  <3,25 maka mahasiswa yang bersangkutan diharuskan membayar sebagian
+                     BOP dan SKS seluruhnya (sesuai dengan biaya kuliah yang berlaku). Tetapi bila Indeks Prestasi yang bersangkutan kembali=3
+                     ,25, maka biaya kuliah (BOP dan SKS) yang bersangkutan kembali dibebaskan. (Untuk beasiswa semacam ini dapat mendaftar
+                     melalui jalur beasiswa korporat dan tidak perlu melakukan pembayaran biaya pendaftaran).</p>
+                     <h3>Persyaratan Pendaftaran</h3>
+                     <ul class="list-item">
+                        <li>1. Tahun lulus SMA sederajat minimal 1 tahun sebelumnya dari tahun penerimaan UAI.</li>
+                        <li>2. Nilai minimal rata-rata untuk IPA : Matematika, Fisika, Kimia, Biologi dan Bahasa Inggris minimal 8.00.</li>
+                        <li>3. Nilai minimal rata-rata untuk IPS : Matematika, Bahasa Inggris, Geografi, Ekonomi, dan Sosiologi minimal 8.00.</li>
+                        <li>4. Jumlah terbatas.</li>
+                     </ul>
+                     <h3>Cara Pendaftaran</h3>
+                     <ul class="list-item">
+                        <li>1. Melakukan
+                           <a href="#reguser">registrasi</a> user PMB Online</li>
+                        <li>2. Lakukan Aktivasi user sesuai dengan email terkirim oleh Aplikasi PMB</li>
+                        <li>3. Mengikuti petunjuk pendaftaran online</li>
+                        <li>4. Login ke Aplikasi PMB</li>
+                        <li>5. Mengisi Formulir</li>
+                        <li>6. Pilih jalur masuk beasiswa korporat.</li>
+                     </ul>
+
+                     <div class="line" id="jalurmasuk-pmdk"></div>
+
+                     <!-- Jalur Masuk Beasiswa PMDK-->
+                     <h2 class="section-title">Jalur Masuk PMDK</h2>
+                     <h3>Persyaratan Pendaftaran</h3>
+                     <ul class="list-item">
+                        <li>1. Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI.</li>
+                        <li>2. Memperoleh rata-rata nilai rapor SMA sederajat minimal 7,5 pada kelas 10, 11, dan 12 (semester ganjil).</li>
+                        <li>3. Jumlah terbatas.</li>
+                     </ul>
+                     <h3>Cara Pendaftaran</h3>
+                     <ul class="list-item">
+                        <li>1. Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id</li>
+                        <li>2. Mengikuti petunjuk pendaftaran online (lihat cara pendaftaran)</li>
+                        <li>3. Pilih jalur masuk PMDK</li>
+                        <li>4. Melakukan pembayaran pendaftaran calon mahasiswa baru</li>
+                        <li>5. Melampirkan foto copy rapor SMA sederajat yang telah dilegalisir kelas 10, 11 dan 12 (semester ganjil)</li>
+                        <li>6. Melampirkan Surat Keterangan dari Kepala Sekolah bahwa ybs benar memperoleh rata-rata nilai minimal 7,5.</li>
+                        <li>7. Dokumen pada point 5 dan 6, dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia atau via pos
+                           yang ditujukan kepada Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek Masjid
+                           Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110.</li>
+                     </ul>
+                     <h3>Keuntungan</h3>
+                     <ul class="list-item">
+                        <li>1. Bagi yang lulus berkas dan seleksi nilai rapor, tidak perlu tes seleksi.</li>
+                        <li>2. Mendapatkan potongan BPP 25%.</li>
+                     </ul>
+
+                     <div class="line" id="jalurmasuk-pmdk-prestasi-kelas"></div>
+
+                     <!-- Jalur Masuk Beasiswa PMDK prestasi kelas-->
+                     <h2 class="section-title">Jalur Masuk PMDK Prestasi Kelas</h2>
+                     <h3>Persyaratan Pendaftaran</h3>
+                     <ul class="list-item">
+                        <li>1. Tahun lulus SMA sederajat, sesuai tahun penerimaan mahasiswa baru UAI.</li>
+                        <li>2. SMA sederajat dengan Akreditasi A.</li>
+                        <li>3. Memperoleh peringkat 1 sd 5 besar di kelas.</li>
+                        <li>4. Jumlah terbatas.</li>
+                     </ul>
+                     <h3>Cara Pendaftaran</h3>
+                     <ul class="list-item">
+                        <li>1. Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id.</li>
+                        <li>2. Mengikuti petunjuk pendaftaran online (lihat cara pendaftaran).</li>
+                        <li>3. Pilih jalur masuk PMDK Prestasi.</li>
+                        <li>4. Melakukan pembayaran pendaftaran calon mahasiswa baru.</li>
+                        <li>5. Melampirkan foto copy rapor SMA sederajat yang telah dilegalisir kelas 10, 11 dan 12 (semester ganjil).</li>
+                        <li>6. Melampirkan Surat Keterangan dari Kepala Sekolah yang dilegalisir bahwa ybs benar menduduki ranking 1 sd 5 besar
+                           di kelas.</li>
+                        <li>7. Dokumen pada point 5 dan 6, dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia atau via pos
+                           yang ditujukan kepada Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek Masjid
+                           Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110.</li>
+                     </ul>
+                     <h3>Keuntungan</h3>
+                     <ul class="list-item">
+                        <li>1. Bagi yang lulus berkas, seleksi nilai rapor dan wawancara, tidak perlu tes seleksi.</li>
+                        <li>2. Mendapatkan potongan BPP 40% dan BOP 20%.</li>
+                     </ul>
+
+                     <div class="line" id="jalurmasuk-pmdk-plus"></div>
+
+                     <!-- Jalur Masuk Beasiswa PMDK Plus-->
+                     <h2 class="section-title">PMDK Plus (Prestasi Bidang Seni & Olah Raga)</h2>
+                     <h3>Tingkat International</h3>
+                     <ul class="list-item">
+                        <li>1. Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id.</li>
+                        <li>2. Mengikuti petunjuk pendaftaran online (lihat cara pendaftaran).</li>
+                        <li>3. Pilih jalur masuk PMDK Prestasi Seni dan Olah Raga Internasional.</li>
+                        <li>4. Melakukan pembayaran pendaftaran calon mahasiswa baru.</li>
+                        <li>5. Melampirkan foto copy rapor yang telah dilegalisir kelas 10, 11, dan 12 (semester ganjil).</li>
+                        <li>6. Melampirkan surat pengantar dari KONI.</li>
+                        <li>7. Melampirkan sertifikat lomba yang pernah diikuti.</li>
+                        <li>8. Point 5 s.d 7 diatas, disampaikan atau dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia
+                           atau via pos yang ditujukan Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek
+                           Masjid Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110.</li>
+                        <li>9. Jumlah terbatas.</li>
+                        <li>10. Bagi yang lulus berkas dan wawancara, tidak perlu tes seleksi.</li>
+                        <li>11. Keuntungan bagi yang lulus seleksi, mendapatkan potongan BPP 100% dan BOP 50%.</li>
+                     </ul>
+
+                     <h3>Tingkat Nasional</h3>
+                     <ul class="list-item">
+                        <li>1. Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id.</li>
+                        <li>2. Mengikuti petunjuk pendaftaran online (lihat cara pendaftaran).</li>
+                        <li>3. Pilih jalur masuk PMDK Prestasi Seni dan Olah Raga Wilayah.</li>
+                        <li>4. Melakukan pembayaran pendaftaran calon mahasiswa baru.</li>
+                        <li>5. Melampirkan foto copy rapor yang telah dilegalisir kelas 10, 11, dan 12 (semester ganjil).</li>
+                        <li>6. Bukti piagam.</li>
+                        <li>7. Melampirkan surat pengantar dari Dinas Pemuda dan Olah Raga Setempat.</li>
+                        <li>8. Point 5 s.d 7 diatas, disampaikan atau dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia
+                           atau via pos yang ditujukan Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek
+                           Masjid Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110.</li>
+                        <li>9. Jumlah terbatas.</li>
+                        <li>10. Bagi yang lulus berkas dan wawancara, tidak perlu tes seleksi.</li>
+                        <li>11. Keuntungan bagi yang lulus seleksi, mendapatkan potongan BPP 40%.</li>
+                     </ul>
+
+                     <h3>Tingkat Wilayah</h3>
+                     <ul class="list-item">
+                        <li>1. Mengisi formulir pendaftaran online UAI di penerimaan.uai.ac.id.</li>
+                        <li>2. Mengikuti petunjuk pendaftaran online (lihat cara pendaftaran).</li>
+                        <li>3. Pilih jalur masuk PMDK Prestasi Seni dan Olah Raga Nasional.</li>
+                        <li>4. Melakukan pembayaran pendaftaran calon mahasiswa baru.</li>
+                        <li>5. Melampirkan foto copy rapor yang telah dilegalisir kelas 10, 11, dan 12 (semester ganjil).</li>
+                        <li>6. Melampirkan surat pengantar dari KONI.</li>
+                        <li>7. Melampirkan bukti piagam.</li>
+                        <li>8. Point 5 s.d 7 diatas, disampaikan atau dikirimkan secara langsung ke PMB Lt. 1 Universitas Al Azhar Indonesia
+                           atau via pos yang ditujukan Panitia Penerimaan Mahasiswa Baru, Kampus Universitas Al Azhar Indonesia, Komplek
+                           Masjid Agung Al Azhar, Jl. Sisingamangaraja, Kebayoran Baru, Jakarta Selatan, 12110.</li>
+                        <li>9. Jumlah terbatas.</li>
+                        <li>10. Bagi yang lulus berkas dan wawancara, tidak perlu tes seleksi.</li>
+                        <li>11. Keuntungan bagi yang lulus seleksi, mendapatkan potongan BPP 40% dan BOP 20%.</li>
+                     </ul>
+
+                     <div class="line" id="reguser"></div>
+
+                     <!-- Registrasi User -->
+                     <h2 class="section-title">Registrasi User</h2>
+                     <ul class="list-item">
+                        <li>1. Pilih Menu Registrasi & Aktivasi.</li>
+                        <li>2. Isi Nama Lengkap.</li>
+                        <li>3. Isi Alamat Email (Pastikan email yang digunakan aktif). </li>
+                        <li>4. Isi Password (Pastikan anda mengingatnya, Password akan digunakan untuk masuk ke aplikasi PMB Online).</li>
+                        <li>5. Masukan Anti Spam sesua yang tertera dalam gambar.</li>
+                        <li>6. Klik tombol Daftar untuk menyelesaikan proses registrasi user.</li>
+                     </ul>
+
+                     <div class="line" id="formulir"></div>
+
+                     <h1 class="section-title">Formulir PMB</h1>
+                     <p>Tata cara pengisian formulir</p>
+                     <!-- Isi Formulir -->
+                     <h2 class="section-title" id="isiformulir">Formulir</h2>
+                     <ul class="list-item">
+                        <li>1. Pilih Menu Formulir</li>
+                        <li>2. Isi Nama Lengkap.</li>
+                        <li>3. Isi No HP. </li>
+                        <li>4. Isi No HP Orang Tua. </li>
+                        <li>5. Pilih Jalur Masuk.</li>
+                        <li>6. Pilih Jenjang Studi</li>
+                        <li>7. Pilih Jurusan Asal.</li>
+                        <li>8. Pilih Prodi 1 (pilihan 1).</li>
+                        <li>9. Pilih Prodi 2 (pilihan 2).</li>
+                        <li>10. Klik tombol Simpan untuk melanjutkan ke proses pembayaran.</li>
+                     </ul>
+
+                     <div style="display: none;">
+                        <h1 id="biodata" class="section-title">Biodata</h1>
+                        <p>Tata cara pengisian biodata terbagi atas tiga bagian, yaitu;
+                           <a href="#isidatadiri">Data Diri</a>,
+                           <a href="#isiortu">Data Orang Tua/Wali</a> dan
+                           <a href="#isipendidikan">Data Pendidikan</a>
+                        </p>
+
+                        <!-- Isi Data Diri -->
+                        <h2 class="section-title" id="isidatadiri">Data Diri</h2>
+                        <ul class="list-item">
+                           <li>1. Pilih Menu Biodata Tab Data Diri</li>
+                           <li>2. Isi Nama Lengkap.</li>
+                           <li>3. Isi No HP. </li>
+                           <li>4. Isi No HP Orang Tua. </li>
+                           <li>5. Isi NIK.</li>
+                           <li>6. Isi NPWP.</li>
+                           <li>7. Pilih Jenis Kelamin</li>
+                           <li>8. Isi Tempat Lahir.</li>
+                           <li>9. Isi Tanggal Lahir.</li>
+                           <li>10. Pilih Agama.</li>
+                           <li>11. Upload Foto.</li>
+                           <li>12. Pilih Golongan Darah.</li>
+                           <li>13. Pilih Kewarganegaraan.</li>
+                           <li>14. Isi Alamat.</li>
+                           <li>15. Isi Dusun, RT, RW .</li>
+                           <li>16. Isi Kelurahan dan Kode Pos .</li>
+                           <li>17. Isi Kota/Kabupaten.</li>
+                           <li>18. Isi Provinsi.</li>
+                           <li>19. Pilih Jenis Tinggal.</li>
+                           <li>20. Pilih Penerima Kartu Perlindungan Sosial jika Ya isi No KPS.</li>
+                           <li>21. Klik tombol Update untuk melanjutkan pengisian data Orang Tua/Wali.</li>
+                        </ul>
+                        <!-- Isi Orang Tua/Wali -->
+                        <h2 class="section-title" id="isiortu">Orang Tua/Wali</h2>
+                        <ul class="list-item">
+                           <li>1. Pilih Menu Biodata Tab Orang Tua/Wali</li>
+                           <li>2. Pilih Profil Ayah.</li>
+                           <li>3. Isi NIK.</li>
+                           <li>4. Isi Nama Lengkap.</li>
+                           <li>5. Isi Tanggal Lahir. </li>
+                           <li>6. Pilih Pendidikan.</li>
+                           <li>7. Pilih Pekerjaan</li>
+                           <li>8. Pilih Penghasilan.</li>
+                           <li>9. Pilih Profil Ibu.</li>
+                           <li>10. Isi NIK.</li>
+                           <li>11. Isi Nama Lengkap.</li>
+                           <li>12. Isi Tanggal Lahir. </li>
+                           <li>13. Pilih Pendidikan.</li>
+                           <li>14. Pilih Pekerjaan</li>
+                           <li>15. Pilih Penghasilan.</li>
+                           <li>16. Pilih Profil Wali.</li>
+                           <li>17. Isi Nama Lengkap.</li>
+                           <li>18. Isi Tanggal Lahir. </li>
+                           <li>19. Pilih Pendidikan.</li>
+                           <li>20. Pilih Pekerjaan</li>
+                           <li>21. Pilih Penghasilan.</li>
+                           <li>22. Klik tombol Update untuk melanjutkan pengisian Data Pendidikan.</li>
+                        </ul>
+
+                        <!-- Isi Data Pendidikan -->
+                        <h2 class="section-title" id="isipendidikan">Data Pendidikan</h2>
+                        <ul class="list-item">
+                           <li>1. Pilih Menu Biodata Tab Data Pendidikan</li>
+                           <li>2. Profil Data Sekolah.</li>
+                           <li>2. Isi Asal Sekolah.</li>
+                           <li>3. Isi NISN. </li>
+                           <li>4. Isi Nama Sekolah.</li>
+                           <li>5. Isi Alamat Sekolah</li>
+                           <li>6. Isi Tahun Lulus.</li>
+                           <li>7. Isi No. Ijazah.</li>
+                           <li>8. Isi Tanggal Ijazah.</li>
+                           <li>8. Isi Jumlah Nilai Ujian Akhir Nasional.</li>
+                           <li>8. Upload File Ijazah.</li>
+                           <li>2. Profil Data Pendidikan untuk Pasca/Pindahan.</li>
+                           <li>8. Isi NIM/NPM Sebelumnya.</li>
+                           <li>8. Isi Kode Prodi Sebelumnya.</li>
+                           <li>8. Isi Nama Prodi Sebelumnya.</li>
+                           <li>8. Isi Jenjang Pendidikan Sebelumnya.</li>
+                           <li>8. Isi Kode PT Sebelumnya.</li>
+                           <li>8. Isi Alamat PT Sebelumnya.</li>
+                           <li>9. Klik tombol Update untuk melanjutkan ke proses ujian online.</li>
+                        </ul>
+                     </div>
+
+                     <div class="line" id="finpay"></div>
+
+                     <h1 class="section-title">Tata Cara Pembayaran Melalui Finpay
+                     <img src="../../themes/sikad/images/payment/finpay.png"></h1>
+                     <br/>
+                     <p>TATA CARA PEMBAYARAN FINPAY 021 PADA E-CHANNEL BANK</p>
+
+                     <!-- bri payment -->
+                     <h2 class="section-title" id="bri">ATM MANDIRI</h2>
+                     <ul class="list-item">
+                        <li>1. Pilih Menu Bayar/Beli</li>
+                        <li>2. Pilih Telepon/HP</li>
+                        <li>3. Pilih CDMA/Telkom</li>
+                        <li>4. Pilih Telkom/Internet</li>
+                        <li>5. Masukkan 12 digit Kode Bayar yang didapatkan dari Portal PMB atau Email, kemudian Pilih Benar</li>
+                        <li>6. Akan mucul pada layar monitor ATM berisi Nama dan Nominal Tagihan.</li>
+                        <li>7. Pilih Benar untuk melanjutkan pembayaran.</li>
+                     </ul>
+
+                     <!-- bca payment -->
+                     <h2 class="section-title" id="bca">ATM BCA</h2>
+                     <ul class="list-item">
+                        <li>1. Pilih Menu TRANSAKSI LAINNYA</li>
+                        <li>2. Pilih Transaksi PEMBAYARAN</li>
+                        <li>3. Pilih Jenis Pembayaran TELEPON/HANDPHONE</li>
+                        <li>4. Pilih Operator Telepon TELKOM</li>
+                        <li>5. Masukkan 12 digit Kode Bayar yang didapatkan dari Portal PMB atau Email, kemudian Pilih Benar</li>
+                        <li>6. Akan mucul pada layar monitor ATM berisi Nama dan Nominal Tagihan.</li>
+                        <li>7. Pilih YA untuk melanjutkan pembayaran</li>
+                     </ul>
+
+                     <!-- danamon payment -->
+                     <h2 class="section-title" id="danamon">ATM Danamon</h2>
+                     <ul class="list-item">
+                        <li>1. Pilih Jenis Transaksi PEMBAYARAN</li>
+                        <li>2. Pilih Jenis Pembayaran TELEPON</li>
+                        <li>3. Masukkan 3 digit awal Payment Code yang didapat dari website merchant (021)</li>
+                        <li>4. Masukkan 9 digit terakhir Payment Code yang didapat dari website merchant</li>
+                        <li>5. Pilih Sumber Dana TABUNGAN</li>
+                        <li>6. Pilih YA untuk melanjutkan pembayaran</li>
+                     </ul>
+
+                     <!-- bni payment -->
+                     <h2 class="section-title" id="bni">ATM BNI</h2>
+                     <ul class="list-item">
+                        <li>1. Pilih Menu MENU LAIN</li>
+                        <li>2. Pilih Transaksi PEMBAYARAN</li>
+                        <li>3. Pilih Jenis Pembayaran TELEPON/HP</li>
+                        <li>4. Pilih Jenis Pembayaran Telepon TELKOM</li>
+                        <li>5. Pilih Jenis Pembayaran Telkom TELEPON/SPEEDY</li>
+                        <li>6. Masukkan 12 digit Kode Bayar yang didapatkan dari Portal PMB atau Email, kemudian Pilih Benar</li>
+                        <li>7. Pilih YA untuk melanjutkan pembayaran</li>
+                        <li>8. Pilih Rekening Tabungan</li>
+
+                     </ul>
+
+                     <!-- bii payment -->
+                     <h2 class="section-title" id="bii">ATM BII</h2>
+                     <ul class="list-item">
+                        <li>1. Pilih Menu PEMBAYARAN/TOP UP PULSA</li>
+                        <li>2. Pilih Jenis Pembayaran LAYANAN UMUM</li>
+                        <li>3. Pilih Jenis Pembayaran TELKOMPAY</li>
+                        <li>4. Masukkan 12 digit Kode Bayar yang didapatkan dari Portal PMB atau Email, kemudian Pilih Benar</li>
+                        <li>5. Pilih YA untuk melanjutkan pembayaran</li>
+                        <li>6. Pilih Jenis Rekening TABUNGAN</li>
+                     </ul>
+
+                     <!-- ocbc payment -->
+                     <h2 class="section-title" id="ocbc">ATM OCBC NISP</h2>
+                     <ul class="list-item">
+                        <li>1. Pilih MENU LAINNYA</li>
+                        <li>2. Pilih Transaksi PEMBAYARAN</li>
+                        <li>3. Pilih Jenis Pembayaran TELEPON/TELKOM</li>
+                        <li>4. Pilih Jenis Pembayaran TELP/FLEXI/SPEEDY</li>
+                        <li>5. Masukkan 12 digit Payment Code yang didapat dari website merchant</li>
+                        <li>6. Pilih YA untuk melanjutkan pembayaran</li>
+                     </ul>
+
+                     <!-- ibmandiri payment -->
+                     <h2 class="section-title" id="ibmandiri">Internet Banking Mandiri</h2>
+                     <ul class="list-item">
+                        <li>1. Login ke internet banking Mandiri</li>
+                        <li>2. Pilih menu pembayaran</li>
+                        <li>3. Pilih jenis pembayaran Telkom</li>
+                        <li>4. Pilih provider Telkom</li>
+                        <li>5. Masukkan 3 digit awal yang di dapat dari website merchant pada kode area (021)</li>
+                        <li>6. Masukkan 9 digit kode terakhir yang didapat dari website merchant</li>
+                        <li>7. Klik Lanjutkan</li>
+                        <li>8. Masukkan challenge code ke token</li>
+                        <li>9. Masukkan kode token internet banking Mandiri</li>
+                        <li>10. Klik Submit</li>
+                     </ul>
+
+                     <!-- klikbca payment -->
+                     <h2 class="section-title" id="klikbca">KlikBCA</h2>
+                     <ul class="list-item">
+                        <li>1. Login ke KlikBCA</li>
+                        <li>2. Pilih menu pembayaran</li>
+                        <li>3. Pilih jenis pembayaran Telepon</li>
+                        <li>4. Pilih operator Telkom</li>
+                        <li>5. Masukkan 12 digit payment code yang didapat dari website merchant (021xxx)</li>
+                        <li>6. Klik Lanjutkan</li>
+                        <li>7. Masukkan challenge code ke token</li>
+                        <li>8. Masukkan kode response yang muncul pada key BCA</li>
+                     </ul>
+
+
+                     <!-- ibanking-bni payment -->
+                     <h2 class="section-title" id="ibanking-bni">iBanking BNI</h2>
+                     <ul class="list-item">
+                        <li>1. Login ke iBanking BNI</li>
+                        <li>2. Pilih menu Transaksi => pilih pembayaran/pembelian</li>
+                        <li>3. Pilih pembayaran Tagihan => Telepon/Seluler (Pasca Bayar Kode Area)</li>
+                        <li>4. Pilih provider Telkom/Speedy</li>
+                        <li>5. Masukkan 3 digit awal kode payment (021) di kolom pertama, dan 9 digit terakhir di kolom selanjutnya pada field no
+                           telepon</li>
+                        <li>6. Masukkan kode yang muncul ke token</li>
+                        <li>7. Masukkan nomor response yang dihasilkan oleh BNI e-secure</li>
+                        <li>8. Masukkan kembali kode yang muncul ke token</li>
+                        <li>9. Masukkan kembali nomor response yang dihasilkan oleh BNI e-secure</li>
+                     </ul>
+
+                     <div class="line" id="alfapay"></div>
+
+                     <h1 class="section-title">Tata Cara Pembayaran Melalui Alfa, PT Pos, dan Pegadaian </h1>
+                     <br/>
+                     <h2 class="section-title">Cara pembayaran melalui
+                        <img src="../../themes/sikad/images/payment/alfamart.png" width="95">
+                     </h2>
+                     <ul class="list-item">
+                        <li>1. Catat kode pembayaran dari potal PMB atau yang dikirim ke email</li>
+                        <li>2. Kunjungi gerai Alfamart, Alfa Midi & Dan-Dan terdekat.</li>
+                        <li>3. Sampaikan kepada Kasir untuk melakukan pembayaran Telkom ==> Speedy.</li>
+                        <li>4. Berikan kode pembayaran Kepada Kasir (Kode Pembayaran = No Telkom Speedy).</li>
+                        <li>5. Kasir akan memasukkan Kode Pembayaran di aplikasi, dan akan menginformasikan Nama dan Nominal yang akan dibayar.</li>
+                        <li>6. Lakukan pembayaran sesuai dengan nominal yang diinformasikan oleh Kasir.</li>
+                        <li>7. Mintalah bukti pembayaran transaksi Anda kepada Kasir.</li>
+                        <li>8. Transaksi pembayaran telah selesai dilakukan.</li>
+                     </ul>
+                     <br/>
+
+                     <h2 class="section-title">Cara pembayaran melalui
+                        <img src="../../themes/sikad/images/payment/pos.png" width="95">
+                     </h2>
+                     <ul class="list-item">
+                        <li>1. Catat kode pembayaran dari potal PMB atau yang dikirim ke email</li>
+                        <li>2. Kunjungi gerai PT POS terdekat.</li>
+                        <li>3. Sampaikan kepada Teller untuk melakukan pembayaran Telkom ==> Speedy.</li>
+                        <li>4. Berikan kode pembayaran Kepada Teller (Kode Pembayaran = No Telkom Speedy).</li>
+                        <li>5. Teller akan memasukkan Kode Pembayaran di aplikasi, dan akan menginformasikan Nama dan Nominal yang akan dibayar.</li>
+                        <li>6. Lakukan pembayaran sesuai dengan nominal yang diinformasikan oleh Teller.</li>
+                        <li>7. Mintalah bukti pembayaran transaksi Anda kepada Teller.</li>
+                        <li>8. Transaksi pembayaran telah selesai dilakukan.</li>
+                     </ul>
+                     <br/>
+
+                     <h2 class="section-title">Cara pembayaran melalui
+                        <img src="../../themes/sikad/images/payment/pegadaian.png" width="95">
+                     </h2>
+                     <ul class="list-item">
+                        <li>1. Catat kode pembayaran dari potal PMB atau yang dikirim ke email</li>
+                        <li>2. Kunjungi gerai Pegadaian terdekat.</li>
+                        <li>3. Sampaikan kepada Teller untuk melakukan pembayaran Telkom ==> Speedy.</li>
+                        <li>4. Berikan kode pembayaran Kepada Teller (Kode Pembayaran = No Telkom Speedy).</li>
+                        <li>5. Teller akan memasukkan Kode Pembayaran di aplikasi, dan akan menginformasikan Nama dan Nominal yang akan dibayar.</li>
+                        <li>6. Lakukan pembayaran sesuai dengan nominal yang diinformasikan oleh Teller.</li>
+                        <li>7. Mintalah bukti pembayaran transaksi Anda kepada Teller.</li>
+                        <li>8. Transaksi pembayaran telah selesai dilakukan.</li>
+                     </ul>
+                     <br/>
+
+                     <div class="line" id="brivia"></div>
+
+                     <h1 class="section-title">Cara pembayaran melalui
+                        <img src="../../themes/sikad/images/payment/bri.png" width="95">
+                     </h1>
+                     <ul class='list-item'>
+                        <li>1. Pilih menu <strong>Transaksi Lain.</strong></li>
+                        <li>2. Pilih menu <strong>Pembayaran.</strong></li>
+                        <li>3. Pilih <strong>Lainnya</strong>, lalu pilih <strong>Brivia.</strong></li>
+                        <li>4. Masukkan nomor rekening dengan nomor Virtual Account/ Kode Pembayaran yang didapat dari Portal PMB dan email.</li>
+                        <li>5. Lalu akan muncul Nominal dan nama calon mahasiswa, Ketika muncul konfirmasi pembayaran, silahkan pilih <strong> Ya</strong>.</li>
+                        <li>6. Transaksi telah selesai dan silahkan ambil bukti pembayaran anda</li>
+                     </ul>
+                     <br/>
+
+                     <div class="line" id="bank-bni"></div>
+
+                     <h1 class="section-title">Cara pembayaran melalui
+                        <img src="../../themes/sikad/images/payment/bni.png" width="95">
+                     </h1>
+                     <ul class='list-item'>
+                        <li>1. Pada menu utama, pilih <strong>Menu Lain.</strong></li>
+                        <li>2. Pilih <strong>Transfer.</strong></li>
+                        <li>3. Pilih <strong>Pilih Rekening Tabungan.</strong></li>
+                        <li>4. Pilih <strong>Pilih Ke Rekening BNI.</strong></li>
+                        <li>5. Masukkan nomor virtual account yang didapat dari Portal PMB atau email, lalu pilih <strong>Tekan Jika Benar</strong>.</li>
+                        <li>6. Masukkan jumlah tagihan yang akan anda bayar secara lengkap. Pembayaran dengan jumlah tidak sesuai akan otomatis ditolak.</li>
+                        <li>7. Masukkan berita yang diinginkan (boleh dikosongkan).</li>
+                        <li>8. Jumlah yang dibayarkan, nomor rekening dan nama calon mahasiswa akan ditampilkan. Jika informasi telah sesuai, tekan <strong>Ya</strong>.</li>
+                        <li>9. Transaksi Anda sudah selesai.</li>
+                     </ul>
+                     <br/>
+
+                     <div class="line" id="permata-bank"></div>
+
+                     <h1 class="section-title">Cara pembayaran melalui
+                        <img src="../../themes/sikad/images/payment/permata.png" height="35" class="mb10">
+                     </h1>
+                     <ul class='list-item'>
+                        <li>1. Pada menu utama, pilih <strong>Transaksi Lainnya.</strong>
+                        </li>
+                        <li>2. Pilih <strong>Pembayaran.</strong>
+                        </li>
+                        <li>3. Pilih <strong>Pembayaran lainnya.</strong>
+                        </li>
+                        <li>4. Pilih <strong>Virtual Account.</strong>
+                        </li>
+                        <li>5. Masukkan 16 digit No. Virtual Account yang didapat dari Portal PMB dan email, lalu tekan <strong>Benar</strong>.</li>
+                        <li>6. Pada halaman konfirmasi transfer akan muncul jumlah yang dibayarkan, nomor rekening, & nama calon mahasiswa. Jika informasi
+                           telah sesuai tekan <strong>Benar</strong>.</li>
+                        <li>7. Pilih rekening pembayaran Anda dan tekan <strong>Benar</strong>.</li>
+                     </ul>
+                     <br/>
+
+                     <div class="line" id="mandiripay"></div>
+
+                     <h1 class="section-title">Tata Cara Pembayaran Melalui <br/> Finnet Mandiri ClickPay
+                     <img src="../../themes/sikad/images/payment/mandiri-clickpay.png"> </h1>
+                     <!-- finnet-mandiri payment -->
+                     <!--<h2 class="section-title" id="finnet-mandiri">Finnet Mandiri ClickPay</h2> -->
+                     <ul class="list-item">
+                        <li>1. Pilih Metoda Pembayaran Mandiri ClickPay</li>
+                        <li>2. Masukan Nomor Kartu Debit</li>
+                        <li>3. Masukan Respon Token Mandiri</li>
+                        <li>4. Klik tombol Proses Pembayaran</li>
+                     </ul>
+
+                     <div class="line" id="bcapay"></div>
+
+                     <h1 id="bcapay" class="section-title">Tata Cara Pembayaran Melalui <br/> Finnet BCA KlikPay
+                     <img src="../../themes/sikad/images/payment/bca-klikpay.png"> </h1>
+                     <br/>
+                     <p>Tata Cara Pembayaran Melalui Finnet BCA KlikPay</p>
+                     <!-- finnet-bca payment -->
+                     <!-- <h2 class="section-title" id="finnet-bca">Finnet BCA ClickPay</h2>
+                     <ul class="list-item">
+                        <li>1. Pilih Metoda Pembayaran BCA ClickPay</li> -->
+                        <!-- <li>2. Masukan Nomor Kartu Debit</li>
+                                <li>3. Masukan Respon Token Mandiri</li>
+                                <li>4. Klik tombol Proses Pembayaran</li> -->
+                     </ul>
+
+                     <div class="line" id="ujian"></div>
+
+                     <h1 class="section-title">Ujian Online</h1>
+                     <p>Untuk melakukan ujian online, calon mahasiswa diharapkan untuk memiliki koneksi intenet yang stabil dan mencari tempat yang nyaman untuk melakukan ujian online ini. Adapun langkah-langkah ujian online adalah sebagai berikut :</p>
+                     <p>1. Silakan klik menu Ujian Online.</p>
+                     <img src="img/menu.png" alt="">
+                     <br/>
+                     <br/>
+                     <p>2. Bila ujian online belum dimulai, maka akan muncul notifikasi sebagai berikut : </p>
+                     <img src="img/waktu-ujian.png" width="800" alt="">
+                     <br/>
+                     <br/>
+                     <p>3. Bila ujian sudah mulai, silakan memulai ujian online. Langkah-langkahnya adalah :</p>
+                     <i>Baca terlebih dahulu keterangan yang tertera pada halaman ujian online, baik rentang tanggal ujian, dan lama waktu ujian.</i>
+                     <img src="img/pelaksanaan-ujian.png" width="800" alt="">
+                     <br/>
+                     <br/>
+                     <p>4. Selanjutnya klik tombol mulai ujian </p>
+                     <img src="img/mulai-ujian.png" width="800" alt="">
+                     <br/>
+                     <br/>
+                     <p>Maka calon mahasiswa memulai ujian di tanggal dan durasi waktu yang telah ditentukan. Jika sudah memulai ujian, waktu ujian online <br/> akan terus berjalan dan tidak dapat di “Pause”, sehingga calon mahasiswa harus benar-benar memperhatikan waktu ujian online tersebut.</p>
+                     <img src="img/soal-ujian.png" width="800" alt="">
+                     <br/>
+                     <br/>
+                     <h5>Perhatikan :</h5>
+                     <ul class="list-item">
+                        <li>1. Menjelaskan soal yang sudah dan belum diselesaikan. Warna hijau menandakan soal telah diselesaikan, sebaliknya
+                        warna merah menandakan soal belum diselesaikan.</li>
+                        <li>2. Sisa waktu adalah batas waktu mengerjakan bidang soal yang diberikan.</li>
+                        <li>3. Calon mahasiswa dapat memilih bidang soal yang telah ditentukan, sebagai contoh bila calon mahasiswa ingin menyelesaikan
+                        bidang soal Bahasa Inggris / TPA, maka klik Bahasa Inggris / TPA. </li>
+                        <li>4. Kolom ini bertujuan untuk memberikan informasi nomor
+                        dan jumlah soal yang ada pada setiap bidang soal dan memberikan informasi kepada calon mahasiswa soal yang telah diselesaikan
+                        atau belum. Bila soal telah diselesaikan, maka pada kolom nomor tersebut akan berubah berwarna hijau. Silakan calon mahasiswa
+                        mengklik nomor yang belum berubah menjadi warna hijau, maka soal akan muncul sesuai dengan nomor yang dipilih oleh calon
+                        mahasiswa.</li>
+                        <li>5. Bila calon mahasiswa telah yakin untuk menyelesaikan ujian online, silakan untuk tekan tombol “selesai ujian”.</li>
+                     </ul>
+                     <br/>
+                     <br/>
+                     <p>5. Apabila calon mahasiswa telah menyelesaikan ujian online dan menekan tombol selesai ujian, maka calon mahasiswa <br/> akan mendapatkan notifikasi sebagai berikut :</p>
+                     <img src="img/selesai-ujian.png" width="800" alt="">
+
+
+                     <div class="line" id="biaya-kuliah"></div>
+
+                     <h1 class="section-title">Biaya Kuliah</h1>
+                     <img src="../../gambar/biayakuliah.jpg" width="950" alt="">
+
+                     <h1 class="section-title" id="faq">FAQ - Frequence Asked Question</h1>
+                     <br/>
+                     <div class="panel-group" id="accordion1">
+                        <div class="panel panel-minimal">
+                           <div class="panel-heading">
+                              <h4 class="panel-title">
+                                 <a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1" class="text-primary collapsed" aria-expanded="false">
+                                    <span class="plus mr5"></span> Bagaimana cara mendaftar secara online ?
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="collapseOne1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                              <div class="panel-body">
+                                 Petunjuk mendaftar secara online
+                              </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-minimal">
+                           <div class="panel-heading">
+                              <h4 class="panel-title">
+                                 <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1" class="collapsed text-primary" aria-expanded="false">
+                                    <span class="plus mr5"></span> Saya tidak dapat login
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="collapseTwo1" class="panel-collapse collapse" aria-expanded="false">
+                              <div class="panel-body">
+                                 <ul class="list-item">
+                                    <li>1. Pastikan username dan password yang Anda masukkan benar.</li>
+                                    <li>2. Perhatikan huruf besar dan kecil berpengaruh di password Anda.</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-minimal">
+                           <div class="panel-heading">
+                              <h5 class="panel-title">
+                                 <a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1" class="collapsed text-primary" aria-expanded="false">
+                                    <span class="plus mr5"></span> Saya kesulitan dalam meng-upload Foto dan dokumen lainnya.
+                                 </a>
+                              </h5>
+                           </div>
+                           <div id="collapseThree1" class="panel-collapse collapse" aria-expanded="false">
+                              <div class="panel-body">
+                                 <ul class="list-item">
+                                    <li>1. Tipe File yang diperbolehkan yaitu JPG/JPEG.</li>
+                                    <li>2. Ukuran file maksimal 500KB..</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+
+            </div>
+            <!--/ END Template Container -->
+
+            <!-- START To Top Scroller -->
+            <a href="#" class="totop animation" data-toggle="waypoints totop" data-showanim="bounceIn" data-hideanim="bounceOut" data-offset="50%"><i class="ico-angle-up mt10"></i></a>
+            <!--/ END To Top Scroller -->
+        </section>
+        <!--/ END Template Main -->
+
+        <!-- START JAVASCRIPT SECTION (Load javascripts at bottom to reduce load time) -->
+        <!-- Application and vendor script : mandatory -->
+        <script type="text/javascript" src="assets/js/vendor.js"></script>
+        <script type="text/javascript" src="assets/js/core.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <!--/ Application and vendor script : mandatory -->
+
+        <!-- Plugins and page level script : optional -->
+        <!--/ Plugins and page level script : optional -->
+        <!--/ END JAVASCRIPT SECTION -->
+    </body>
+    <!--/ END Body -->
+</html>

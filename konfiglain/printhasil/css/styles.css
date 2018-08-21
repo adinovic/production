@@ -1,0 +1,86 @@
+/* Style Content */
+
+/*==================================
+# General Styles
+# Cover Styles
+# Subcover Styles
+# ID Siswa Styles
+# Rapor Nilai Styles
+# Lembar Buku Induk Styles
+=================================*/
+
+
+/* # General Styles
+==================================*/
+html {height:100%;}
+body {font-family:Arial, Helvetica, sans-serif; color: #000000; min-height: 100%; font-size:12px;}
+a { cursor: pointer; }
+p { padding-top: 10px; }
+h1,h2,h3,h4 {margin:0px; font-weight:bold;}
+td {padding:5px;}
+.clear {clear: both; display: block;}
+.borderline {border-left:1px solid black; border-bottom:1px solid black;}
+.borderline td {border-right:1px solid black; border-top:1px solid black; padding:3px; font-size:11px;}
+
+.borderlarge {border-left:1px solid black; border-bottom:1px solid black;}
+.borderlarge td {border-right:1px solid black; border-top:1px solid black; padding:3px; font-size:16px;}
+
+.borderbold {border:2px solid black;}
+.borderbold thead th{ background:#d7d7d7;height:100%; padding:8px 4px; border-bottom:1px solid black;}
+.borderbold tfoot td:first-child {border:none;}
+
+
+.outline {border-top:1px solid black; border-right:1px solid black;}
+.outline tr td {border-left:1px solid black; padding:3px;}
+.outline tr:last-child {border:1px solid black;}
+.outline thead tr th {border:1px solid black; border-top:none; border-right:none; padding:3px;}
+.outline thead tr th:last-child {border-right:none;}
+.closeline {border-top:1px solid black; position:relative; top:-6px;}
+.M0 { margin:0;}
+.P0 { padding:0;}
+.ctr { text-align:center;}
+.line { border:1px solid black;}
+
+/* # Cover Styles
+==================================*/
+#wrapper {width:960px; margin:auto; position:relative;}
+.colcode {float:right; padding:2px; border:1px solid black; font-weight:bold;}
+.garuda {width:600px; margin:20px auto;}
+.garuda img {position:relative; left:250px; margin:10px 0;}
+.garuda h2 {text-align:center;}
+.mainlogo {width:600px; margin:130px auto;}
+.mainlogo img {position:relative; left:215px;}
+.identity {width:700px; margin-left:220px; position:relative;}
+
+/* # Subcover Styles
+==================================*/
+.subcover {text-align:center;}
+.sName {margin-top:150px; margin-left:220px; width:700px;}
+.sName td {padding:5px;}
+
+/* # ID Siswa Styles
+==================================*/
+#tHead {width:600px; margin:auto; margin-bottom:10px;}
+#tHead h2, #tHead h3 {text-align:center;}
+#tHead span {font-weight:bold; font-size:16px; padding:2px 30px; border:1px solid black;}
+.IdLengkap {margin-top:50px; margin-left:220px; width:700px;}
+.IdLengkap td {padding:3px;}
+
+
+/* # Rapor Nilai Styles
+==================================*/
+.headrapor {margin-bottom:20px; font-size:14px;}
+.headrapor td {padding:2px;}
+.notes {padding:5px 7px; border:1px solid black; margin:0px;}
+
+/* # Lembar Buku Induk Styles
+=================================*/
+.headingtop {text-align:center; margin:5px;}
+.NIS {text-align:center; margin:0px; padding:0px; border-top:2px solid black; border-bottom:2px solid black;}
+.tablewrap {position:relative; border-top:2px solid black; /*border-bottom:2px solid black;*/ margin:3px 0; padding-top:5px;}
+.leftcolumn {width:470px;float:left;}
+.rightcolumn {width:470px;float:right;}
+.noborder {font-size:10px;}
+.noborder td {padding:2px;}
+.picprofil {float:left;}
+.headmaster {float:right;}

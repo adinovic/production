@@ -1,0 +1,22 @@
+/* Reset Style bawaan pak riki
+==================================*/
+
+/* Laporan Cetak Stikes Samarinda
+==================================*/
+.bordertable td {padding:5px 5px;}	
+.formcetak {border-top:1px solid black; border-left:1px solid black;}
+.formcetak td {padding:3px 5px; border-bottom:1px solid black; border-right:1px solid black;}
+
+
+
+/* Laporan Cetak STFB
+==================================*/
+.judulmenucetak {text-align: center;}
+.postcontent { width:100%; margin:auto;}
+.printerrmesg {text-align: center; margin-bottom: 20px;}
+.datacetak td {padding:5px 5px;}
+
+ 
+
+ /* Laporan Cetak UNTAG
+==================================*/

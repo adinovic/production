@@ -1,0 +1,106 @@
+<wsdl:definitions xmlns:tns="http://localhost/sikad/master/unilak/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="http://localhost/sikad/master/unilak/">
+<wsdl:message name="reversalSoapIn">
+<wsdl:part name="data" type="s:string">
+<s:documentation>
+array of string (idprogram,key,password,sessionid,billkey,idrequest,transmisidatetime,bankid,terminalid,tahun,semester,billcode,paymentamount,transactionid)
+</s:documentation>
+</wsdl:part>
+</wsdl:message>
+<wsdl:message name="reversalSoapOut">
+<wsdl:part name="return" type="tns:stringArray"/>
+</wsdl:message>
+<wsdl:message name="paymentSoapIn">
+<wsdl:part name="data" type="s:string">
+<s:documentation>
+array of string (idprogram,key,password,sessionid,billkey,idrequest,transmisidatetime,bankid,terminalid,tahun,semester,billcode,paymentamount,transactionid)
+</s:documentation>
+</wsdl:part>
+</wsdl:message>
+<wsdl:message name="paymentSoapOut">
+<wsdl:part name="return" type="tns:stringArray"/>
+</wsdl:message>
+<wsdl:message name="inquirySoapIn">
+<wsdl:part name="data" type="s:string">
+<s:documentation>
+array of string (idprogram,key,password,sessionid,billkey,idrequest,transmisidatetime,bankid,tahun,semester)
+</s:documentation>
+</wsdl:part>
+</wsdl:message>
+<wsdl:message name="inquirySoapOut">
+<wsdl:part name="return" type="tns:stringArray"/>
+</wsdl:message>
+<wsdl:message name="getsessionSoapIn">
+<wsdl:part name="data" type="s:string">
+<s:documentation>array of string (idprogram,key,password)</s:documentation>
+</wsdl:part>
+</wsdl:message>
+<wsdl:message name="getsessionSoapOut">
+<wsdl:part name="return" type="tns:stringArray"/>
+</wsdl:message>
+<wsdl:portType name="H2HUnilakSoap">
+<wsdl:operation name="reversal">
+<wsdl:documentation>return a dynamic array of array of strings</wsdl:documentation>
+<wsdl:input message="tns:reversalSoapIn"/>
+<wsdl:output message="tns:reversalSoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="payment">
+<wsdl:documentation>return a dynamic array of array of strings</wsdl:documentation>
+<wsdl:input message="tns:paymentSoapIn"/>
+<wsdl:output message="tns:paymentSoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="inquiry">
+<wsdl:documentation>return a dynamic array of array of strings</wsdl:documentation>
+<wsdl:input message="tns:inquirySoapIn"/>
+<wsdl:output message="tns:inquirySoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="getsession">
+<wsdl:documentation>return a dynamic array of array of strings</wsdl:documentation>
+<wsdl:input message="tns:getsessionSoapIn"/>
+<wsdl:output message="tns:getsessionSoapOut"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="H2HUnilakSoap" type="tns:H2HUnilakSoap">
+<soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc"/>
+<wsdl:operation name="reversal">
+<soap:operation soapAction="http://localhost/sikad/master/unilak/reversal"/>
+<wsdl:input>
+<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/sikad/master/unilak/" parts="data"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/sikad/master/unilak/" parts="return"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="payment">
+<soap:operation soapAction="http://localhost/sikad/master/unilak/payment"/>
+<wsdl:input>
+<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/sikad/master/unilak/" parts="data"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/sikad/master/unilak/" parts="return"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="inquiry">
+<soap:operation soapAction="http://localhost/sikad/master/unilak/inquiry"/>
+<wsdl:input>
+<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/sikad/master/unilak/" parts="data"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/sikad/master/unilak/" parts="return"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getsession">
+<soap:operation soapAction="http://localhost/sikad/master/unilak/getsession"/>
+<wsdl:input>
+<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/sikad/master/unilak/" parts="data"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://localhost/sikad/master/unilak/" parts="return"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="H2HUnilak">
+<wsdl:port name="H2HUnilakSoap" binding="tns:H2HUnilakSoap">
+<soap:address location="http://localhost/sikad/master/unilak/unilaktes.php"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,5 @@
+ID Makul;Nama Makul;Nama Makul Inggris;ID Prodi;Teori/Praktek (0=Teori,1=Praktek,2=Teori dan Praktek);Jenis (A=Wajib/B=Pilihan/C=Wajib Peminatan/D=Pilihan Peminatan/S=Tugas Akhir);Kelompok MK (A/B/C/D/E/F/G/H);Semester (1-8);SKS Tatap Muka;SKS Praktikum;SKS Praktek Lapangan; SKS Simulasi; SKS Biaya; Metode Kuliah ; Tanggal Mulai (YYYY-MM-DD); Tanggal Akhir (YYYY-MM-DD); Ada Silabus (Y/T); Ada SAP (Y/T); Ada Bahan Ajar (Y/T); Ada Diktat (Y/T); Ada Acara Praktek (Y/T);  MKL (Y/T); Status (A/N)
+A123456; Makul A; MAKUL ZZZ; 135;1;A;B;1;1;1;0;0;2;tes;2012-01-09;2017-09-1;Y;Y;Y;Y;Y;Y;A  
+B123456; Makul B; MAKUL ZZZ; 135;1;A;B;1;1;1;0;0;2;tes;2012-01-09;2017-09-1;Y;Y;Y;Y;Y;Y;A  
+C123456; Makul C; MAKUL ZZZ; 135;1;A;B;1;1;1;0;0;2;tes;2012-01-09;2017-09-1;Y;Y;Y;Y;Y;Y;A  
+D123456; Makul D; MAKUL ZZZ; 135;1;A;B;1;1;1;0;0;2;tes;2012-01-09;2017-09-1;Y;Y;Y;Y;Y;Y;A  

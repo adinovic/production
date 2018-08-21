@@ -1,0 +1,1375 @@
+/*
+======================
+General styles
+Template 1 styles
+Template 2 styles
+Template 3 styles
+======================
+*/
+
+
+/*
+======================
+General styles
+======================
+*/
+
+* {margin:0px;padding:0px;}		
+body {font-family:trebuchet ms; color:#000000;}
+td {padding:0px;margin:0px;height:10px;}	
+tr {height:13px;}
+td {background:none;}	
+.ganjil {background:none;}
+.genap {background:none;}	
+.float_card {list-style:none;}	
+.float_card a {margin-left:140px;font-size:16px;}		
+.float_card li {display:block;float:left;}
+
+/* Reset conflict styles */
+.formulir tr td, .form tr td, tr td {margin:0; padding:0;}
+.contentwrapper p {margin:0px;}
+h1, h2, h3, h4, h5 {font-size:inherit;}
+
+
+
+/* General Styles */
+	#cardwrap_t1, #template2_cardwrap, #template3_cardwrap {
+		font-size: 11px;
+	}
+
+
+/*
+======================
+Template 1 styles
+======================
+*/	
+	.boxtitle_t1 {
+		display:inline-block;
+		width:332px;
+		background:#132656;
+		color:#fff;
+		padding-bottom:5px;
+		}
+		
+	.template1_line {
+		border:1px solid #000000;
+		position:relative;
+		left:0px;
+		top:2px;
+		}	
+		
+	.logo_t1 {
+		float:left;
+		margin-left:5px;
+		margin-top:2px;
+		margin-right:20px;
+		width:45px;
+		}
+		
+	tbody_t1 td {
+		padding-left:5px;
+		padding:0px;
+		margin:0px;
+		}
+		
+	.logoright_t1 {
+		float:left;
+		margin-top:2px;
+		}
+
+		
+	.title_t1 {
+		float:left;
+		margin-top:4px;
+		width:255px;
+		font-size: 16px;
+		text-align:center;
+		}
+	
+	.address_t1 {
+		float:left;
+		width:255px;
+		text-align:center;
+		padding-bottom:5px;
+		}
+		
+	#cardwrap_t1 {
+		position:relative;
+		margin:10px;
+		width:332px;
+		height:240px;
+		border:1px solid #444444;
+		background:#f6f5b6;
+		}
+
+	#cardwrap_t1 td {
+		line-height: 17px;
+	}	
+		
+	.titlecard_t1 {
+		text-align:center;
+		margin-top:5px;
+		font-size: 14px;
+		}
+		
+	.pict_t1 {
+		position:absolute;
+		top:78px;
+		left:10px;
+		border:1px solid black;
+		}
+		
+	.barcoy_t1 {
+		margin:20px 0 0 2px;
+		position:absolute;
+		float:left;
+		bottom:3px;
+		left:0px;
+		}
+		
+	.signature_t1 {
+		position:absolute;
+		bottom:2px;
+		right:10px;
+		margin-right:10px;
+		text-align:center;
+		}
+		
+	.signature_t1 img {
+		position:relative;
+		top:0px;
+		}
+
+
+		
+/* belakang */		
+		
+	#cardwrap_back {
+		position:relative;
+		margin:10px;
+		padding:10px;
+		width:332px;
+		height:220px;
+		font-size: 11px;
+		border:1px solid #444444;
+		background:#132656;
+		color: #fff;
+		}	
+	
+	#cardwrap_back p {
+		text-align: center;
+		line-height: 17px;
+	}	
+
+
+/*
+======================
+Template 2 styles
+======================
+*/
+
+.template2_line {
+		border:1px solid #6798db;
+		position:relative;
+		left:0px;
+		top:0px;
+		}
+		
+	#template2_cardwrap {
+		position:relative;
+		margin:10px;
+		width:332px;
+		height:240px;
+		border:1px solid #032b62;
+		background:url(foldertemplate2/bgcard.jpg) no-repeat;
+		}
+		
+	
+	#template2_cardwrap {
+		line-height: 17px;
+	}
+	
+		
+	.template2_boxtitle {
+		display:inline-block;
+		width:332px;
+		height:60px;
+		vertical-align:text-top;
+		}	
+		
+	.template2_logo {
+		float:left;
+		margin-right:8px;
+		margin-top:2px;
+		margin-left:5px;
+		}
+		
+	.template2_bgbody {
+		padding:4px 0;
+		font-weight:bold;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template2_bgbody td {
+		color:#fff;
+		}	
+		
+	.template2_logoright {
+		float:left;
+		margin-top:2px;
+		}
+
+		
+	.template2_title {
+		margin:auto;
+		font-size:14px;
+		color:#fff;
+		width:290px;
+		text-align:center;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template2_titlecard {
+		text-align:center;
+		margin-top:4px;
+		color:#fff;
+		font-size: 16px;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template2_pict {
+		position:absolute;
+		top:79px;
+		right:10px;
+		border:1px solid #032b62;
+		}
+		
+	.template2_barcode {
+		position:absolute;
+		right:10px;
+		bottom:13px;
+		}
+		
+	.template2_bgfooter {
+		width:332px;
+		height:60px;
+		display:inline-block;
+		padding:5px 0px;
+		}
+		
+	.template2_signature {
+		position:absolute;
+		bottom:2px;
+		left:10px;
+		text-align:center;
+		}
+
+
+	/* Belakang */	
+	
+	#template2_cardwrap_back {
+		position:relative;
+		margin:10px;
+		width:332px;
+		height:240px;
+		border:1px solid #032b62;
+		color: #fff;
+		background:url(foldertemplate2/bgcard.jpg) no-repeat;
+		}
+
+	#template2_cardwrap_back  p {
+		text-align: center;
+		line-height: 17px;
+		margin:5px;
+	}	
+		
+		
+/*
+======================
+Template 3 styles
+======================
+*/
+
+
+.template3_line {
+		border:1px solid #6798db;
+		position:relative;
+		left:0px;
+		top:0px;
+		}
+		
+	#template3_cardwrap {
+		position:relative;
+		margin:10px;
+		width:332px;
+		height:240px;
+		border:1px solid #032b62;
+		background:url(foldertemplate3/bgcard.jpg) no-repeat;
+		}
+
+	#template3_cardwrap td {
+		line-height: 17px;
+	}	
+		
+	.template3_headercard {
+		height:25px;
+		}
+		
+	.template3_headercard h2 {
+		text-align:center;
+		margin-top:5px;
+		width:270px;
+		color:#fff;
+		font-size:14px;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template3_headercard p {
+		text-align:center;
+		color:#fff;
+		line-height: 12px;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}	
+		
+	.template3_boxtitle {
+		display:inline-block;
+		width:332px;
+		height:60px;
+		}	
+		
+	.template3_logo {
+		float:right;
+		margin-left:5px;
+		margin-right:10px;
+		}
+		
+	.template3_bgbody {
+		color:#05295b;
+		margin-top: 7px;
+		font-weight:bold;
+		}
+		
+		
+	.template3_logoright {
+		float:left;
+		margin-top:2px;
+		}
+
+		
+	.template3_title {
+		margin:auto;
+		text-align:center;
+		font-size:16px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template3_titlecard {
+		text-align:center;
+		margin-top:15px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template3_pict {
+		position:absolute;
+		top:60px;
+		right:10px;
+		border:1px solid #032b62;
+		}
+		
+	.template3_student {
+		position:absolute;
+		top:190px;
+		right:12px;
+		color:#0a3167;
+		}	
+		
+	.template3_barcode {
+		margin:19px 0 0 2px;
+		position:absolute;
+		bottom:10px;
+		left:0px;
+		}
+		
+	.template3_signature {
+		position:absolute;
+		bottom:-1px;
+		right:10px;
+		line-height: 15px;
+		font-size: 10px;
+		margin-right:10px;
+		text-align:center;
+		}
+		
+	.template3_bgfooter {
+		width:332px;
+		margin-top:8px;
+		display:inline-block;
+		padding:5px 0px;
+		}
+
+
+	
+	/* back template */
+	#template3_back {
+		position:relative;
+		margin:10px;
+		width:332px;
+		height:240px;
+		border:1px solid #032b62;
+		background:url(foldertemplate3/bgcard_back.png) no-repeat;
+		}
+
+	#template3_back p {
+		color: #fff;
+		text-align: center;
+		margin: 5px;
+		font-size: 11px;
+	}	
+		
+		
+/*
+===============================
+Template 4 styles (Multistrada)
+===============================
+*/
+
+
+.template4_line {
+		border:1px solid #6798db;
+		position:relative;
+		left:0px;
+		top:0px;
+		}
+		
+	#template4_cardwrap {
+		position:relative;
+		margin:10px;
+		width:376px;
+		height:226px;
+		border:1px solid #032b62;
+		background:url(foldertemplate4/bgcard.jpg) no-repeat;
+		font-family:"Myriad Pro", arial, Geneva, sans-serif;
+		}
+		
+	.template4_headercard {
+		height:25px;
+		}
+		
+	.template4_headercard h1 {
+		font-weight:normal;
+		text-align:center;
+		padding-top:10px;
+		width:270px;
+		color:#fff;
+		font-size:20px;
+		}
+		
+	.template4_headercard p {
+		text-align:center;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}	
+		
+	.template4_boxtitle {
+		display:inline-block;
+		width:332px;
+		height:60px;
+		}	
+		
+	.template4_logo {
+		float:right;
+		margin-left:5px;
+		margin-right:10px;
+		}
+		
+	.template4_bgbody {
+		color:#231f20;
+		font-weight:normal;
+		text-align:right;
+		background:url(foldertemplate4/bgtransparent.png) transparent;
+		}
+		
+	.template4_bgbody tr:last-child {
+		background:#fff;
+		}	
+		
+	.template4_logoright {
+		float:left;
+		margin-top:2px;
+		}
+
+		
+	.template4_title {
+		margin:auto;
+		text-align:center;
+		font-size:16px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template4_titlecard {
+		text-align:center;
+		margin-top:15px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template4_pict {
+		position:absolute;
+		top:1px;
+		right:10px;
+		}
+		
+	.template4_student {
+		position:absolute;
+		top:190px;
+		right:12px;
+		color:#0a3167;
+		}		
+		
+	.template4_barcode{
+		position:absolute;
+		bottom:-3px;
+		right:2px;
+		margin-right:10px;
+		text-align:center;
+		}
+		
+	.template4_barcode p {
+		color:#fff;
+		}	
+		
+	.template4_bgfooter {
+		display:inline-block;
+		padding:5px 0px;
+		}		
+
+
+/*
+====================================
+Template 4 back styles (Multistrada)
+====================================
+*/
+		
+	#template4_back {
+		font-size:10px;
+		position:relative;
+		margin:10px;
+		width:376px;
+		height:226px;
+		border:1px solid #032b62;
+		background:url(foldertemplate4/bgbackcard.jpg) no-repeat;
+		font-family:"Myriad Pro", arial, Geneva, sans-serif;
+		}	
+		
+	#template4_back .signature {	
+		color:#fff;
+		text-align:center;
+		}
+			
+	#textFonts {
+		width:340px;
+		margin:auto;
+		margin-top:5px;
+		margin-bottom:10px;
+		color:#fff;
+		text-align:center;	
+		}		
+			
+	#textFonts p{
+		color:#fff;
+		text-align:center;	
+		}	
+		
+		
+		
+		
+/*
+===============================
+Template 5 styles (STFB)
+===============================
+*/
+
+
+.template5_line {
+		border:1px solid #6798db;
+		position:relative;
+		left:0px;
+		top:0px;
+		}
+		
+	#template5_cardwrap {
+		position:relative;
+		margin:10px;
+		width:376px;
+		height:230px;
+		border:1px solid #032b62;
+		background:url(foldertemplate5/bgcard.jpg) no-repeat;
+		font-family:"Myriad Pro", arial, Geneva, sans-serif;
+		}
+		
+	.template5_headercard {
+		text-align:center;
+		color:#161616;
+		padding-top:5px;
+		}
+		
+	.template5_headercard h1 {
+		font-weight:normal;
+		text-align:center;
+		padding-top:10px;
+		color:#161616;
+		font-size:20px;
+		}
+		
+	.template5_headercard p {
+		text-align:center;
+		}	
+		
+	.template5_boxtitle {
+		display:inline-block;
+		width:332px;
+		height:60px;
+		}	
+		
+	.template5_logokiri {
+		float:left;
+		margin-left:5px;
+		margin-right:5px;
+		width:45px;
+		height:45px;
+		}	
+		
+	.centerHeader {
+		float:left;
+		width:260px;
+		}	
+		
+	.centerHeader h1{
+		padding:0;
+		margin-bottom:2px;
+		font-size:17px;
+		font-weight:bold;
+		}	
+
+	.centerHeader p {
+		line-height: 10px;
+		font-size: 9px;
+		}			
+		
+	.template5_logokanan {
+		float:right;
+		margin-left:5px;
+		margin-right:5px;
+		width:45px;
+		height:45px;
+		}
+		
+	.template5_bgbody {
+		color:#231f20;
+		font-weight:normal;
+		text-align:left;
+		font-size:10px;
+		}
+		
+	.template5_bgbody td {
+		line-height:15px;
+		}	
+
+	.template5_logoright {
+		float:left;
+		margin-top:2px;
+		}
+
+		
+	.template5_title {
+		margin:auto;
+		text-align:center;
+		font-size:16px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template5_titlecard {
+		text-align:center;
+		margin-top:15px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template5_pict {
+		position:absolute;
+		top:85px;
+		right:273px;
+		-moz-border-radius:10px;
+		-webkit-border-radius:10px;
+		border-radius:10px;
+		}
+		
+	.template5_date	{
+		position:absolute;
+		bottom:13px;
+		right:285px;
+		}
+		
+	.rektorat {
+		position:absolute;
+		right:10px;
+		bottom:4px;
+		font-size:9px;
+		text-align:center;
+		}	
+		
+	.template5_student {
+		position:absolute;
+		top:190px;
+		right:12px;
+		color:#0a3167;
+		}		
+		
+	.template5_signature{
+		position:absolute;
+		bottom:12px;
+		left:115px;
+		margin-right:10px;
+		text-align:center;
+		background:#fff;
+		height:30px;
+		width:80px;
+		border:2px solid black;
+		}
+		
+	.template5_barcode p {
+		color:#fff;
+		}	
+		
+	.template5_bgfooter {
+		margin-top:8px;
+		display:inline-block;
+		padding:5px 0px;
+		}				
+
+/******* Template Belakang STFB *********/
+
+
+#template5_cardwrapBack {
+		position:relative;
+		margin:10px;
+		width:376px;
+		height:230px;
+		border:1px solid #032b62;
+		background:url(foldertemplate5/bgbackcard.jpg) no-repeat;
+		font-family:"Myriad Pro", arial, Geneva, sans-serif;
+		}
+		
+.footerback {
+		font-family:tahoma, Helvetica, sans-serif; 
+		font-size:18px; 
+		color:#9C9; 
+		text-shadow:0 1px 1px #000;
+		position:absolute;
+		bottom:22px;
+		left:10px;
+		}		
+		
+.moto {
+		font-family:monotype corsiva;
+		font-size:12px;
+		font-weight:bold;
+		position:absolute;
+		bottom:5px;
+		right:15px;
+	}		
+
+
+
+
+/*
+========================================================
+Template 6 styles UPB (Universitas PancaBakti Pontianak)
+========================================================
+*/
+
+.template6_line {
+		border:1px solid #3c3c3c;
+		position:relative;
+		left:0px;
+		top:0px;
+		}
+		
+	#template6_cardwrap {
+		position:relative;
+		margin:10px;
+		width:310px;
+		height:195px;
+		border:1px solid #032b62;
+		}
+		
+	
+	#template6_cardwrap {
+		line-height: 17px;
+	}
+	
+		
+	.template6_boxtitle {
+		display:inline-block;
+		width:290px;
+		height:60px;
+		vertical-align:text-top;
+		}	
+		
+	.template6_logo {
+		float:left;
+		margin-right:8px;
+		margin-top:2px;
+		margin-left:5px;
+		}
+		
+	.template6_bgbody {
+		padding:0;
+		font-weight:bold;
+		}
+		
+	.template6_bgbody td {
+		padding:0;
+		color:#000;
+		line-height: 8px;
+		font-size: 9px;
+		}	
+		
+	.template6_logoright {
+		float:left;
+		margin-top:2px;
+		}
+
+		
+	.template6_title {
+		margin:auto;
+		font-size:14px;
+		color:#000;
+		width:290px;
+		text-align:center;
+		}
+		
+	.template6_titlecard {
+		text-align:center;
+		margin-top:4px;
+		color:#000;
+		font-size: 16px;
+		}
+		
+	.template6_pict {
+		position:absolute;
+		top:79px;
+		left:10px;
+		}
+		
+	.template6_barcode {
+		position:absolute;
+		right:10px;
+		bottom:13px;
+		}
+		
+	.template6_bgfooter {
+		width:332px;
+		height:60px;
+		display:inline-block;
+		padding:5px 0px;
+		}
+		
+	.template6_signature {
+		position:absolute;
+		bottom:0px;
+		left:10px;
+		line-height: 10px;
+		font-size: 9px;
+		text-align:center;
+		}
+
+
+	/* Belakang */	
+	
+	#template6_cardwrap_back {
+		position:relative;
+		margin:10px;
+		width:290px;
+		height:195px;
+		border:1px solid #032b62;
+		color: #000;
+		padding:0 10px;
+		}
+
+	.watermarkLogo {
+		position: absolute;
+		z-index: -9999;
+		top:7px;
+		left:75px;
+
+	}
+
+	.heading {
+		font-family: tahoma;
+		text-align: center;
+		}
+	.heading h3 {
+		font-size: 14px;
+		font-weight: bold;
+	}	
+	.heading h1 {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.heading h5{
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.template6_profil td {
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.signStudent {
+		height:50px;
+		border:1px solid black;
+	}
+
+	.template6_expired {
+		padding:5px;
+		border:1px solid black;
+		font-size: 12px;
+		text-align: center;
+	}
+
+
+
+
+
+/*
+===============================
+Template 7 styles (UNISBA)
+===============================
+*/
+
+
+.template7_line {
+		border:1px solid #6798db;
+		position:relative;
+		left:0px;
+		top:0px;
+		}
+		
+	#template7_cardwrap {
+		position:relative;
+		margin:10px;
+		width:376px;
+		height:230px;
+		border:1px solid #032b62;
+		background:url(foldertemplate7/bgcard.jpg) no-repeat;
+		font-family:"Myriad Pro", arial, Geneva, sans-serif;
+		}
+		
+	.template7_headercard {
+		text-align:center;
+		color:#161616;
+		padding-top:25px;
+		}
+		
+	.template7_headercard h1 {
+		font-weight:normal;
+		text-align:center;
+		padding-top:10px;
+		color:#161616;
+		font-size:20px;
+		}
+		
+	.template7_headercard p {
+		text-align:center;
+		}	
+		
+	.template7_boxtitle {
+		display:inline-block;
+		width:332px;
+		height:60px;
+		}	
+		
+	.template7_logokiri {
+		float:left;
+		margin-left:5px;
+		margin-right:5px;
+		width:45px;
+		height:45px;
+		}	
+		
+	.centerHeader7 {
+		float:left;
+		width:320px;
+		text-align: left;
+		}	
+
+	.centerHeader7 h6{
+		font-size: 12px;
+		}	
+		
+	.centerHeader7 h1{
+		padding:0;
+		font-size:17px;
+		text-align: left;
+		font-weight:bold;
+		}			
+		
+	.template7_logokanan {
+		float:right;
+		margin-left:5px;
+		margin-right:5px;
+		width:45px;
+		height:45px;
+		}
+		
+	.template7_bgbody {
+		color:#231f20;
+		font-weight:normal;
+		text-align:left;
+		font-size:10px;
+		}
+		
+	.template7_bgbody td {
+		line-height:15px;
+		}	
+
+	.template7_logoright {
+		float:left;
+		margin-top:2px;
+		}
+
+		
+	.template7_title {
+		margin:auto;
+		text-align:center;
+		font-size:16px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template7_titlecard {
+		text-align:center;
+		margin-top:15px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template7_pict {
+		position:absolute;
+		top:80px;
+		right:5px;
+		}
+		
+	.template7_date	{
+		position:absolute;
+		bottom:5px;
+		right:293px;
+		}
+		
+	.rektorat {
+		position:absolute;
+		right:10px;
+		bottom:4px;
+		font-size:9px;
+		text-align:center;
+		}	
+		
+	.template7_student {
+		position:absolute;
+		top:190px;
+		right:12px;
+		color:#0a3167;
+		}		
+		
+	.template7_signature{
+		position:absolute;
+		bottom:12px;
+		left:115px;
+		margin-right:10px;
+		text-align:center;
+		background:#fff;
+		height:30px;
+		width:80px;
+		border:2px solid black;
+		}
+		
+	.template7_barcode p {
+		color:#fff;
+		}	
+		
+	.template7_bgfooter {
+		margin-top:8px;
+		display:inline-block;
+		padding:5px 0px;
+		}				
+
+/******* Template Belakang STFB *********/
+
+
+#template7_cardwrapBack {
+		position:relative;
+		margin:10px;
+		width:376px;
+		height:230px;
+		border:1px solid #032b62;
+		background:url(foldertemplate7/bgbackcard.jpg) no-repeat;
+		font-family:"Myriad Pro", arial, Geneva, sans-serif;
+		}
+
+.signature {
+	position: absolute;
+	left:10px;
+	bottom:45px;
+}
+
+.signature p {
+	font-size: 12px;
+	text-align: left;
+	font-weight: bold;
+}		
+
+
+
+/*
+===============================
+Template 9 styles (STIALAN)
+===============================
+*/
+
+
+.template9_line {
+		border:1px solid #6798db;
+		position:relative;
+		left:0px;
+		top:0px;
+		}
+		
+	#template9_cardwrap {
+		position:relative;
+		margin:10px;
+		width:376px;
+		height:230px;
+		border:1px solid #032b62;
+		background:url(foldertemplate9/bgcard.jpg) no-repeat;
+		font-family:"Myriad Pro", arial, Geneva, sans-serif;
+		}
+		
+	.template9_headercard {
+		text-align:center;
+		color:#161616;
+		padding-top:5px;
+		}
+		
+	.template9_headercard h1 {
+		font-weight:normal;
+		text-align:center;
+		padding-top:10px;
+		color:#161616;
+		font-size:20px;
+		}
+		
+	.template9_headercard p {
+		font-size:9px;
+		line-height: 10px;
+		}	
+		
+	.template9_boxtitle {
+		display:inline-block;
+		width:332px;
+		height:60px;
+		}	
+		
+	.template9_logokiri {
+		float:left;
+		margin-left:5px;
+		margin-right:5px;
+		width:70px;
+		height:70px;
+		}	
+		
+	.centerHeaders {
+		float:left;
+		width:260px;
+		margin-left:15px;
+		}	
+		
+	.centerHeaders h1{
+		padding:0;
+		margin-bottom:2px;
+		font-size:15px;
+		font-weight:bold;
+		}			
+		
+	.template9_bgbody {
+		color:#231f20;
+		font-weight:normal;
+		text-align:left;
+		font-size:10px;
+		}
+		
+	.template9_bgbody td {
+		line-height:15px;
+		}	
+
+	.template9_logoright {
+		float:left;
+		margin-top:2px;
+		}
+
+		
+	.template9_title {
+		margin:auto;
+		text-align:center;
+		font-size:16px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.template9_titlecard {
+		text-align:center;
+		margin-top:15px;
+		color:#fff;
+		text-shadow: 0px 1px 1px rgba(5,26,59, 30);
+		}
+		
+	.rektorat {
+		position: relative;
+		left: 150px;
+		top: -5px;
+		font-size: 12px;
+		text-align: center;
+		font-weight: bold;
+		}	
+
+	.rektorat img {
+		position: relative;
+		left: -5px;
+		top: -5px;
+		}	
+
+	.rektorat h4 {
+		line-height: 15px;
+	}	
+		
+	.mainhead {
+		background:#010161;
+		color:#beb625;
+		padding:5px;
+		margin-left:85px;
+		padding-left: 20px;
+		-webkit-border-bottom-left-radius: 40px;
+		-moz-border-radius-bottomleft: 40px;
+		border-bottom-left-radius: 40px;
+		}
+		
+	.template9_student {
+		position:absolute;
+		top:190px;
+		right:12px;
+		color:#0a3167;
+		}		
+		
+	.template9_signature{
+		position:absolute;
+		bottom:12px;
+		left:115px;
+		margin-right:10px;
+		text-align:center;
+		background:#fff;
+		height:30px;
+		width:80px;
+		border:2px solid black;
+		}
+		
+	.template9_barcode p {
+		color:#fff;
+		}	
+		
+	.template9_bgfooter {
+		margin-top:8px;
+		display:inline-block;
+		padding:5px 0px;
+		}				
+
+/******* Template Belakang STFB *********/
+
+
+#template9_cardwrapBack {
+		position: relative;
+		margin: 10px;
+		padding-top: 30px;
+		width: 376px;
+		height: 200px;
+		border: 1px solid #032b62;
+		background: url(foldertemplate9/bgbackcard.jpg) no-repeat;
+		font-family: "Myriad Pro", arial, Geneva, sans-serif;
+		}
+
+.centerBackHeader {
+		float: left;
+		width: 260px;
+		margin-left: 105px;
+		margin-top: 20px;
+		}
+
+.template9_pict {
+		position:absolute;
+		top: 45px;
+		right:273px;
+		float:left;
+		}
+		
+	.template9_date	{
+		position:absolute;
+		bottom: 65px;
+		right:285px;
+		}
+
+
+.centerBackHeader h1{
+		padding:0;
+		margin-bottom:2px;
+		font-size:15px;
+		font-weight:bold;
+		}			
+
+.centerBackHeader h4{
+		margin-top: 20px;
+		font-size: 12px;
+		font-weight: bold;
+		line-height: 15px;
+		}
+		
+.barcode_back {
+		position: relative;
+		left: 135px;
+		bottom: -20px;
+		width: 200px;
+
+	}
+
+.footerback {
+		font-family:tahoma, Helvetica, sans-serif; 
+		font-size:18px; 
+		color:#9C9; 
+		text-shadow:0 1px 1px #000;
+		position:absolute;
+		bottom:22px;
+		left:10px;
+		}		
+		
+.moto {
+		font-family:monotype corsiva;
+		font-size:12px;
+		font-weight:bold;
+		position:absolute;
+		bottom:5px;
+		right:15px;
+	}		
+

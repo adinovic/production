@@ -1,0 +1,92 @@
+body {
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+table.datatable {
+border: 1px solid #ccc;
+}
+
+p{
+    margin-left: 20px;
+    color: #039;
+}
+a {
+    text-decoration:none;
+    color: #669;
+}
+th a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #039;
+}
+.title {
+    text-align:center;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+.title2 {
+    text-align:center;
+    text-transform:uppercase;
+    font-size:15px;
+}
+.subtitle {
+    text-align:left;
+    font-size:13px;
+}
+
+hr {
+    border: 0;
+    width: 100%;
+    color: #f00;
+    background-color: #6678b1;
+    height: 4px;
+    margin-top: 10px;
+}
+.datatable
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 11px;
+	background: #fff;
+	margin: 20px;
+	border-collapse: collapse;
+	text-align: left;
+}
+.datatable th
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 1px solid #ccc;
+	text-transform:uppercase;
+	text-align:center;
+}
+.datatable td
+{
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+	
+}
+.datatable tbody tr:hover td
+{
+	color: #009;
+}
+	
+.datatable {
+	margin-left:12px;
+	border-top:1px solid #B5B5B5;
+	border-left:1px solid #B5B5B5;
+	}
+	
+.datatable td {
+	border-right:1px solid #B5B5B5;
+	border-bottom:1px solid #B5B5B5;
+	padding:3px 2px;
+	}
+
+.datatable th {
+	border-right:1px solid #c6c6c6;
+	padding:0 2px;
+	}
